@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-UK"
-title                    : "Fayçal Drissi"
+title                    : "Faycal Drissi"
 title_separator          : "-"
-name                     : &name "Fayçal Drissi"
+name                     : &name "Faycal Drissi"
 description              : &description "personal description"
 url                      : https://fdr0903.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "fdr0903/fdr0903.github.io"
+repository               : "FDR0903/fdr0903.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
