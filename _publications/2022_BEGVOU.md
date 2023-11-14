@@ -3,13 +3,14 @@ title: "Solvability of Differential Riccati Equations and Applications to Algori
 collection: publications
 permalink: /publication/solvability_riccati
 excerpt: #'This paper is about the number 3. The number 4 is left for future work.'
-date: 2023-07-01
+date: 2022-07-01
 venue: 'Applied Mathematical Finance'
 paperurl: 'https://www.tandfonline.com/doi/abs/10.1080/1350486X.2023.2241130'
-citation: 'Á. Cartea, F. Drissi and M. Monga, "Execution and Statistical Arbitrage with Signals in Multiple Automated Market Makers," 2023 IEEE 43rd International Conference on Distributed Computing Systems Workshops (ICDCSW), Hong Kong, Hong Kong, 2023, pp. 37-42, doi: 10.1109/ICDCSW60045.2023.00012.'
+citation: ' Fayçal Drissi (2022) Solvability of Differential Riccati Equations and Applications to Algorithmic Trading with Signals, Applied Mathematical Finance, 29:6, 457-493, DOI: 10.1080/1350486X.2023.2241130 '
 ---
-Automated market makers (AMMs) are a new type of trading venue where the rules for liquidity provision and liquidity taking are considerably different from those of the traditional electronic trading venues. AMMs have become one of the key markets to trade crypto-currencies, whose liquidity is highly fragmented and prices exhibit high levels of cointegration. In this paper, we derive the optimal strategy for a liquidity taker (LT) who trades orders of large size and executes statistical arbitrages in a basket of crypto-currencies whose constituents co-move. The LT uses market signals and exchange rate information from relevant AMMs and traditional venues to enhance the performance of her strategy. We use stochastic control tools to derive a closed-form strategy that can be computed and implemented by the LT in real time. Finally, we use market data from two pools of Uniswap v3 and from the LOB-based exchange Binance to study co-movements between crypto-currencies and lead-lag effects between trading venues, and to showcase the performance of the strategy.
 
-[Download paper here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4388104)
+We study a differential Riccati equation (DRE) with indefinite matrix coefficients, which arises in a wide class of practical problems. We show that the DRE solves an associated control problem, which is key to provide existence and uniqueness of a solution. As an application, we solve two algorithmic trading problems in which the agent adopts a constant absolute risk-aversion (CARA) utility function, and where the optimal strategies use signals and past observations of prices to improve their performance. First, we derive a multi-asset market making strategy in over-the-counter markets, where the market maker uses an external trading venue to hedge risk. Second, we derive an optimal trading strategy that uses prices and signals to learn the drift in the asset prices. 
 
-Recommended citation: Á. Cartea, F. Drissi and M. Monga, "Execution and Statistical Arbitrage with Signals in Multiple Automated Market Makers," 2023 IEEE 43rd International Conference on Distributed Computing Systems Workshops (ICDCSW), Hong Kong, Hong Kong, 2023, pp. 37-42, doi: 10.1109/ICDCSW60045.2023.00012.
+[Download paper here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4308008)
+
+Recommended citation:  Fayçal Drissi (2022) Solvability of Differential Riccati Equations and Applications to Algorithmic Trading with Signals, Applied Mathematical Finance, 29:6, 457-493, DOI: 10.1080/1350486X.2023.2241130 
