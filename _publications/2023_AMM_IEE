@@ -1,7 +1,7 @@
 ---
-title: "Multi-asset Optimal Execution and Statistical Arbitrage Strategies under Ornstein-Uhlenbeck Dynamics"
+title: "Execution and Statistical Arbitrage with Signals in Multiple Automated Market Makers"
 collection: publications
-permalink: /publication/multi_asset_execution_stat_arb
+permalink: /publication/amm_ieee
 excerpt: #'This paper is about the number 3. The number 4 is left for future work.'
 date: 2021-12-01
 venue: 'SIAM Journal on Financial Mathematics'

@@ -11,49 +11,16 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* 2010 - B.S. (Classes Préparatoires) - Advanced courses in Maths and Physics (Distinction)
+* 2014 - "Diplôme d'ingénieur" in Applied Mathematics and Computer Science (Merit-based scholarship) - École Nationale Supérieure d'Informatique et de Mathématiques Appliquée
+* 2023 - Ph.D in Mathematics, Université Paris 1 Panthéon-Sorbonne
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2017-2021: Quantitative Trader
+  * New-York Life Investment
+  * Duties included: systematic and macro strategies development and trading
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* 2016-2017: Quantitative Researcher
+  * AXA Investment Managers
+  * Duties included: systematic investment and pricing models research and development
