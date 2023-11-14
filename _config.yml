@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-UK"
-title                    : "Faycal Drissi"
+title                    : "Fayçal Drissi"
 title_separator          : "-"
-name                     : &name "Faycal Drissi"
+name                     : &name "Fayçal Drissi"
 description              : &description "personal description"
 url                      : https://fdr0903.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Faycal Drissi"
+  name             : "Fayçal Drissi"
   avatar           : "meScholar.jpg"
   bio              : "DPhil Mathematics -  Financial Mathematics"
-  location         : "Oxford-Man Institute, Eagle House, Walton Well Rd, Oxford OX2 6ED"
+  location         : "Oxford-Man Institute, Eagle \n House, Walton Well Rd,\n Oxford OX2 6ED"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=njvyriQAAAAJ"
