@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Fayçal Drissi"
   avatar           : "meScholar.jpg"
-  bio              : "DPhil Mathematics       Financial Mathematics"
-  location         : "Eagle House, Walton Well Rd, OX2 6ED"
+  bio              : "DPhil Mathematics  -  Financial Mathematics"
+  location         : "Eagle House, OX2 6ED"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=njvyriQAAAAJ"
-  email            :
+  email            : "faycal.drissi@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/fay%C3%A7al-drissi-95b16241/"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
