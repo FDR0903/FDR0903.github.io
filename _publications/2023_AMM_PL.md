@@ -8,5 +8,3 @@ venue: 'Applied Mathematical Finance'
 paperurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541034'
 citation: 'Cartea, Á., Drissi, F., & Monga, M. (2023) Predictable Losses of Liquidity Provision in Constant Function Markets and Concentrated Liquidity Markets, Applied Mathematical Finance.'
 ---
-[Download paper here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541034)
-Recommended citation: Cartea, Á., Drissi, F., & Monga, M. (2023) Predictable Losses of Liquidity Provision in Constant Function Markets and Concentrated Liquidity Markets, Applied Mathematical Finance.
