@@ -45,7 +45,7 @@ layout: default
              
         {% if page.citation and page.paperurl and page.code %}
           <p>Recommended citation: {{ page.citation }} <br> <a href="{{ page.paperurl }}"><u>link</u></a>, <a href="{{ page.code }}"><u>code</u></a></p>
-        {% if page.citation and page.paperurl %}
+        {% elsif page.citation and page.paperurl %}
           <p>Recommended citation: {{ page.citation }} <br> <a href="{{ page.paperurl }}"><u>link</u></a></p>
         {% elsif page.citation %}
           <p>Recommended citation: {{ page.citation }} </p>
