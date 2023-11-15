@@ -1,5 +1,5 @@
 ---
-title: "Talk at QuantMinds International 2023 on Automated Market Makers Designs Beyond Constant Functions"
+title: "Generalising Automated Market Makers Beyond Constant Functions"
 collection: talks
 type: "Talk"
 permalink: /talks/quant_minds_talk
