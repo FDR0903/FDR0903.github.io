@@ -7,5 +7,5 @@ venue: "QuantMinds International 2023"
 date: 2023-11-14
 location: "London, United-Kingdom"
 ---
-
-Automated Market Makers Designs Beyond Constant Functions
+Paper is [here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4459177).<br>
+Slides are [here](http://fdr0903.github.io/files/202311_Quant_Minds.pdf).
