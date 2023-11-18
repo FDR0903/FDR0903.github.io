@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 ## About me
-Currently, I am a postdoctoral researcher at the [Oxford-Man Institute](https://oxford-man.ox.ac.uk/), University of Oxford. 
+Currently, I am a grzne postdoctoral researcher at the [Oxford-Man Institute](https://oxford-man.ox.ac.uk/), University of Oxford. 
 
 I hold a Ph.D. in Mathematics from Université Paris 1 Panthéon-Sorbonne. Prior to my doctoral studies, I worked for five years in the hedge-fund industry, engaging in research and development related to derivatives pricing and systematic trading.
 
