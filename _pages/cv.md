@@ -9,14 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+### Education
 * 2010 - B.S. (Classes Préparatoires) - Advanced courses in Maths and Physics (Distinction)
 * 2014 - "Diplôme d'ingénieur" in Applied Mathematics and Computer Science (Merit-based scholarship) - École Nationale Supérieure d'Informatique et de Mathématiques Appliquée
 * 2023 - Ph.D in Mathematics, Université Paris 1 Panthéon-Sorbonne
 
-Work experience
-======
+### Work experience
 * 2017-2021: Quantitative Trader
   * New-York Life Investment
   * Duties included: systematic and macro strategies development and trading
