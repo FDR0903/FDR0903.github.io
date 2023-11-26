@@ -15,7 +15,7 @@ I hold a Ph.D. in Mathematics from Université Paris 1 Panthéon-Sorbonne. Prior
 
 ## Research
 
-My research focuses on effectively combining elements of Mathematics and Machine Learning for financial decision problems in both traditional finance and decentralized finance, with a focus on optimal execution and market making.
+My research focuses on effectively combining elements of Mathematics and Machine Learning for financial decision problems in both traditional finance and decentralized finance, with a focus on transfer learning, deep PDE solving, optimal execution, and market making.
 
 ## OMI Finance seminar
 I am in the organising commitee of the [OMI Finance seminar ](https://oxford-man.ox.ac.uk/omifinanceseminar/), which aims to discuss and promote academic and industrial work addressing the emerging challenges in finance. The seminar focuses the attention on the recent and cutting-edge contributions in economics, microstructure, monetary policy, decentralised finance, and financial technology. Contact me if you wish to attend or present.
