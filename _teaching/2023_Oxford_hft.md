@@ -10,6 +10,9 @@ location: "Oxford, United-Kingdom"
 
 This course covers different aspects of Algorithmic and High Frequency trading. We look at how the limit order book works and discuss how and why we could model it. 
 
+### Slides and material
+The course slides are [here](http://fdr0903.github.io/files/HFT_2024___Oxford___lecture_notes). 
+
 Syllabus
 ======
-We devise trading algorithms which take market microstructure into the account. In particular, we look at the problems of optimal liquidation/acquisition and of market making. For the former, we discuss the classical Almgren-Chriss setting with permanent and instantaneous market impact and discuss the resulting TWAP and VWAP execution strategies. We also consider a transient price impact model of Obizhaeva-Wang. This leads us to consider market efficiency and possible notions of no-arbitrage. We discuss price manipulation strategies and investigate when models allow, or not, for such strategies.
+This course introduces the optimal algorithmic trading in high frequency markets with a focus on optimal order execution in LOBs and optimal market making in OTC markets. Optimal trading problems share a common structure that will be followed throughout this course. We (i) identify a decision problem motivated by practical situations faced by market operators, we (ii) propose a parsimonious model which summarises the environment in key variables that must be considered, we (iii) frame the decision problem as an optimisation problem which can be addressed using classical mathematical tools, and  finally we (iv) obtain a solution (often in closed-form) which we study through simulations and discussions.
