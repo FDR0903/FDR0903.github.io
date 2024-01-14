@@ -8,10 +8,17 @@ date: 2024-02-01
 location: "Oxford, United-Kingdom"
 ---
 
-This course covers different aspects of Algorithmic and High Frequency trading. We look at how the limit order book works and discuss how and why we could model it. 
+This course covers different models of Algorithmic and High Frequency trading for optimal execution and optimal market making.
 
-### Slides and material
-The course slides are [here](http://fdr0903.github.io/files/HFT_2024___Oxford___lecture_notes.pdf). 
+Slides and material
+======
+
+### Lecture notes
+The course lecture notes are [here](http://fdr0903.github.io/files/HFT_2024___Oxford___lecture_notes.pdf). 
+
+### Slides
+Course 1: [link](http://fdr0903.github.io/files/Slides_HFT_course1.pdf). 
+
 
 Syllabus
 ======
