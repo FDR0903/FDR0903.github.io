@@ -17,7 +17,7 @@ Slides and material
 The course lecture notes are [here](http://fdr0903.github.io/files/HFT_2024___Oxford___lecture_notes.pdf). 
 
 ### Slides
-Course 1: [link](http://fdr0903.github.io/files/Slides_HFT_course1.pdf). 
+Course 1: [link](http://fdr0903.github.io/files/HFT_2024_Course_1.pdf). 
 
 
 Syllabus
