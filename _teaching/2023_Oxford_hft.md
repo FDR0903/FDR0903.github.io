@@ -18,7 +18,7 @@ The course lecture notes are [here](http://fdr0903.github.io/files/HFT_2024___Ox
 
 ### Slides
 Course 1: [link](http://fdr0903.github.io/files/HFT_2024_Course_1.pdf). 
-Course 1: [link](http://fdr0903.github.io/files/HFT_2024_Course_2.pdf). 
+Course 2: [link](http://fdr0903.github.io/files/HFT_2024_Course_2.pdf). 
 
 
 Syllabus
