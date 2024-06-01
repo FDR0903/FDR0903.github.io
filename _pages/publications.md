@@ -16,7 +16,7 @@ author_profile: true
 {% endfor %}
 
 <br>
-<h1 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Working papers</h1>
+<h2 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Working papers</h2>
 
 {% for post in site.workingpapers reversed %}
   {% include archive-single-2.html %}
