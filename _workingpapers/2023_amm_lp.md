@@ -1,5 +1,5 @@
 ---
-title: "Decentralised Finance and Automated Market Making: Predictable Loss and Optimal Liquidity Provision"
+title: "Cartea, Á., Drissi, F., & Monga, M. (2023). Decentralised Finance and Automated Market Making: Predictable Loss and Optimal Liquidity Provision"
 collection: workingpapers
 permalink: /workingpapers/amm_lp
 excerpt: #'This paper is about the number 3. The number 4 is left for future work.'
