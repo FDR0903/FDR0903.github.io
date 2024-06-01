@@ -12,19 +12,19 @@ author_profile: true
 
 {% include base_path %}
 
-<h2 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Published papers</h2>
+<h3 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Published papers</h2>
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
-<h2 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Conference proceedings</h2>
+<h3 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Conference proceedings</h2>
 
 {% for post in site.conferences reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
-<h2 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Working papers</h2>
+<h3 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Working papers</h2>
 
 {% for post in site.workingpapers reversed %}
   {% include archive-single-2.html %}
