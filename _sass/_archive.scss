@@ -40,7 +40,7 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.1em;
+  margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
 
   a + a {
@@ -80,7 +80,7 @@
   }
 
   .archive__item-title {
-    text-decoration: no-underline;
+    text-decoration: underline;
   }
 }
 
@@ -120,8 +120,8 @@
   }
 
   .archive__item-title {
-    margin-top: 0.2em;
-    font-size: $type-size-6;
+    margin-top: 0.5em;
+    font-size: $type-size-5;
   }
 
   .archive__item-excerpt {
