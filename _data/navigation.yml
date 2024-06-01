@@ -6,8 +6,8 @@ main:
 #  - title: "Working papers"
 #    url: /workingpapers/
 
-  - title: "Conference proceedings"
-    url: /conferences/
+#  - title: "Conference proceedings"
+#    url: /conferences/
   
   - title: "Talks"
     url: /talks/    
