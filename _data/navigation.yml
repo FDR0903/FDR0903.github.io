@@ -1,10 +1,10 @@
 # main links links
 main:
-  - title: "Publications"
+  - title: "Research"
     url: /publications/
 
-  - title: "Working papers"
-    url: /workingpapers/
+#  - title: "Working papers"
+#    url: /workingpapers/
 
   - title: "Conference proceedings"
     url: /conferences/

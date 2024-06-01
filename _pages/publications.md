@@ -15,6 +15,8 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
+<br>
+<br>
 <h1>Working papers</h1>
 
 {% for post in site.workingpapers reversed %}

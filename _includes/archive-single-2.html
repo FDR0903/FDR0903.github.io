@@ -51,7 +51,7 @@
         {% if post.paperurl and post.code %}
           <a href="{{ post.paperurl }}"><u>link</u></a>, <a href="{{ post.code }}"><u>code</u></a></p>
         {% elsif post.paperurl %}
-          <a href="{{ post.paperurl }}"><u>link</u></a></p>
+          <a href="{{ post.paperurl }}"><u>link</u></a>.</p>
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
