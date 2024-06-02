@@ -41,19 +41,19 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} 
         {% elsif post.collection == 'publications' %}
-          <p> {{ title}}<br> <font size="-0.7"><i><b>{{ post.venue }}</b></i></font>
+          <p> <font size="-0.7">{{ title}}<br> <i><b>{{ post.venue }}</b></i></font>
           <!-- <p> <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}  -->
         {% elsif post.collection == 'conferences' %}
-        <p> {{ title}}<br><i><b>{{ post.venue }}</b></i>
+        <p><font size="-0.7">{{ title}}<br><i><b>{{ post.venue }}</b></i></font> 
         <!-- <p> <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}  -->
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
         {% endif %}
 
         {% if post.paperurl and post.code %}
-          <a href="{{ post.paperurl }}"><u>link</u></a>, <a href="{{ post.code }}"><u>code</u></a>.</p>
+        <font size="-0.7"><a href="{{ post.paperurl }}"><u>link</u></a>, <a href="{{ post.code }}"><u>code</u></a>.</font></p>
         {% elsif post.paperurl %}
-          <a href="{{ post.paperurl }}"><u>link</u></a>.</p>
+        <font size="-0.7"><a href="{{ post.paperurl }}"><u>link</u></a>.</font></p>
         {% endif %}
 
     
