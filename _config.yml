@@ -181,10 +181,10 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  conferences:
+  workingpapers:
     output: true
     permalink: /:collection/:path/
-  workingpapers:
+  conferences:
     output: true
     permalink: /:collection/:path/
   portfolio:
