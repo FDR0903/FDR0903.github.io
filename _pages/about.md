@@ -10,15 +10,18 @@ redirect_from:
 
 I am currently a postdoctoral researcher at the [Oxford-Man Institute](https://oxford-man.ox.ac.uk/), University of Oxford.  I obtained a Ph.D. in Mathematics from Université Paris 1 Panthéon-Sorbonne in 2023. My [thesis](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4424010) focused on the microstructure of traditional electronic markets and decentralised exchanges that use Automated Market Makers (AMMs).
 
-Prior to my doctoral studies, I spent five years in the hedge fund industry, engaging in research and development related to derivatives pricing and systematic trading. 
+Prior to my doctoral studies, I spent five years in the hedge fund industry doing research and development related to systematic trading and global macro. 
 
 Outside of Academia, I am passionate about climbing, mountaineering, running, and languages. Feel free to reach out to chat about research or any of these interests!
+
 
 ## Research Interests
 Blockchain technology, asset digitisation, and machine learning are reshaping the future of the financial landscape and challenging traditional stakeholders. In this context, my research focuses on (i) the economics and microstructure of <u>decentralised financial markets</u> and <u>automated market makers</u>, and on (ii) combining Mathematics and <u>Machine Learning</u> for financial decision problems.
 
+
 ## Editorial services
 - Topic editor for The Journal of FinTech. 
+
 
 ## Events I organize
 - 2023 - 2026 [OMI Finance Seminar](https://oxford-man.ox.ac.uk/omifinanceseminar/).
@@ -26,6 +29,7 @@ Blockchain technology, asset digitisation, and machine learning are reshaping th
 - 2025: [Oxford-Harvard Conference on Decentralised Finance and Market Microstructure](https://sites.google.com/view/oxford-harvard-defi/home).
 - 2023: [Financial Technology Conference, University of Oxford](https://oxford-man.ox.ac.uk/event/financial-technology/).
 - 2023: [Blockchain@X‑OMI Workshop on Blockchain and Decentralized Finance, Ecole Polytechnique and University of Oxford](https://crest.science/blockchainx-omi-workshop-on-blockchain-and-decentralized-finance/).
+
 
 ## Grants and Awards
 - 2022: Chaire Fintech at University Paris Dauphine ‑ PSL, Research Grant.
