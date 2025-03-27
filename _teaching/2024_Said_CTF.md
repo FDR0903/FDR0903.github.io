@@ -1,5 +1,5 @@
 ---
-title: "Continuous-Time Finance"
+title: "2025 - Continuous-Time Finance - Lecturer"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/2024_ctf

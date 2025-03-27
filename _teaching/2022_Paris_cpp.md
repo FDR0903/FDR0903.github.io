@@ -1,5 +1,5 @@
 ---
-title: "Computer C++ and Applications to Quantitative Finance"
+title: "2022 - Computer C++ and Applications to Quantitative Finance - Lecturer"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/2022_Paris_cpp

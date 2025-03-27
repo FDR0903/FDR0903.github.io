@@ -1,5 +1,5 @@
 ---
-title: "Market Microstructure and Algorithmic Trading"
+title: "2024 - Market Microstructure and Algorithmic Trading - Lecturer"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/2023_hft
