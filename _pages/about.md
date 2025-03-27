@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Home"
+title: "About me"
 excerpt: "Home"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-## About me
 I am currently a postdoctoral researcher at the [Oxford-Man Institute](https://oxford-man.ox.ac.uk/), University of Oxford.  I obtained a Ph.D. in Mathematics from Université Paris 1 Panthéon-Sorbonne in 2023. My [thesis](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4424010) focused on the microstructure of traditional electronic markets and decentralised exchanges that use Automated Market Makers (AMMs).
 
 Prior to my doctoral studies, I spent five years in the hedge fund industry, engaging in research and development related to derivatives pricing and systematic trading. 
@@ -18,9 +17,8 @@ Outside of Academia, I am passionate about climbing, mountaineering, running, an
 ## Research Interests
 Blockchain technology, asset digitisation, and machine learning are reshaping the future of the financial landscape and challenging traditional stakeholders. In this context, my research focuses on (i) the economics and microstructure of <u>decentralised financial markets</u> and <u>automated market makers</u>, and on (ii) combining Mathematics and <u>Machine Learning</u> for financial decision problems.
 
-## Editorial services:
+## Editorial services
 - Topic editor for The Journal of FinTech. 
-
 
 ## Events I organize
 - 2023 - 2026 [OMI Finance Seminar](https://oxford-man.ox.ac.uk/omifinanceseminar/).
