@@ -29,7 +29,7 @@ Blockchain technology, asset digitisation, and machine learning are reshaping th
 - 2023: [Financial Technology Conference, University of Oxford](https://oxford-man.ox.ac.uk/event/financial-technology/).
 - 2023: [Blockchain@X‑OMI Workshop on Blockchain and Decentralized Finance, Ecole Polytechnique and University of Oxford](https://crest.science/blockchainx-omi-workshop-on-blockchain-and-decentralized-finance/).
 
-## Grants and Awards
+## Grants and Awards
 - 2022: Chaire Fintech at University Paris Dauphine ‑ PSL, Research Grant.
 - 2023: EURO Working Group for Commodities and Financial Modelling, *Best PhD Thesis prize*.
 - 2023: G-Research, *PhD Prize in Maths and Data Science*.
