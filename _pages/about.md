@@ -36,8 +36,8 @@ Blockchain technology, asset digitisation, and machine learning are reshaping th
 
 
 ## Education:
-- 2023: *Ph.D.* in Mathematics, Université Paris 1 Panthéon Sorbonne, Santa Barbara.
-- 2014: MSc in Quantitiative Finance, Université Paris Dauphine - PSL.
+- 2023: **Ph.D.** in Mathematics, Université Paris 1 Panthéon Sorbonne, France.
+- 2014: **MSc** in Quantitiative Finance, Université Paris Dauphine - PSL, France.
 
 ## Contact
 faycal (dot) drissi (at) gmail.com
