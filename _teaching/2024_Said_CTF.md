@@ -3,12 +3,12 @@ title: "2025 - Continuous-Time Finance - Lecturer"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/2024_ctf
-venue: "University of Oxford - Saïd Business School - MSc Financial Economics"
+venue: "University of Oxford - Saïd Business School - MSc Financial Economics."
 date: 2025-04-01
 location: "Oxford, United-Kingdom"
 ---
 
-### The course
+### Lecture notes [here](https://fdr0903.github.io/ctf25).
 This course provides an introduction to the mathematical tools used in continuous-time models in finance. These models are essential for understanding the complex financial instruments we will explore, ranging from equity options to interest rate derivatives. Continuous-time models are widely employed by trading desks at investment banks and hedge funds to price, hedge, and manage portfolios, in markets where trillions of dollars in derivatives are traded daily.
 
 Former students of this course have gone on to work at hedge funds and investment banks, pursue MSc degrees in Financial Mathematics, or undertake PhD programmes. The course equips you with valuable tools applicable to both industry roles and advanced academic studies.  

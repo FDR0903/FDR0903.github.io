@@ -8,6 +8,7 @@ date: 2022-03-01
 location: "Paris, France"
 ---
 
+### Lecture notes [here](https://fdr0903.github.io/files/slides_cpp.pdf).
 This course introduces students to object-oriented programming by exploring the concepts of program specification and design, algorithm development, coding, and testing, with applications to designing a financial pricing library with pricing algorithms for vanilla and path-dependent options.
 
 ### Aims of the course
