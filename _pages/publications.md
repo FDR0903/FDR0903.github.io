@@ -13,14 +13,14 @@ author_profile: true
 {% include base_path %}
 
 <h3 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Publications</h3>
-<ul style="line-height:1em; text-align:justify">
+<ul style="line-height:1.2em; text-align:justify">
 {% for post in site.publications reversed %}
   <li> {% include archive-single-3.html %} </li>
 {% endfor %}
 </ul>
 
 <h3 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Working papers</h3>
-<ul style="line-height:1em">
+<ul style="line-height:1.2em">
 {% for post in site.workingpapers %}
   <li> {% include archive-single-3.html %} </li>
 {% endfor %}
@@ -28,8 +28,8 @@ author_profile: true
 
 <h3 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Conference proceedings</h3>
 
-<ul>
+<ul style="line-height:1.2em">
 {% for post in site.conferences reversed %}
-  <li> {% include archive-single.html %} </li>
+  <li> {% include archive-single-3.html %} </li>
 {% endfor %}
 </ul>
