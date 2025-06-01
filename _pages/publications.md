@@ -22,7 +22,7 @@ author_profile: true
 <h3 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Working papers</h3>
 <ul>
 {% for post in site.workingpapers %}
-  <li> {% include archive-single-2.html %} </li>
+  <li> {% include archive-single-3.html %} </li>
 {% endfor %}
 </ul>
 
