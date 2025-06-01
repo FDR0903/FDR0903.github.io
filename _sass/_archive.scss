@@ -40,7 +40,7 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0em;
+  margin-bottom: 0.15em;
   font-family: $sans-serif-narrow;
 
   a + a {
@@ -181,7 +181,7 @@
     font-size: 1.25rem;
 
     .archive__item-teaser {
-      margin-bottom: 2em;
+      margin-bottom: 0em;
     }
 
     @include breakpoint($small) {
@@ -225,7 +225,7 @@
     font-size: 1.25rem;
 
     .archive__item-teaser {
-      margin-bottom: 2em;
+      margin-bottom: 0em;
     }
 
     @include breakpoint($small) {
