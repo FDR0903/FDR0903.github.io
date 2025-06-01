@@ -1,5 +1,5 @@
 ---
-title: "Cartea, Á., Drissi, F., & Monga, M  (2022). Decentralised finance and automated market making: Execution and speculation."
+title: "Cartea, Á., Drissi, F., & Monga, M  (2022). Decentralised finance and automated market making: Execution and speculation"
 collection: workingpapers
 permalink: /workingpapers/amm_execution
 excerpt: #'This paper is about the number 3. The number 4 is left for future work.'
