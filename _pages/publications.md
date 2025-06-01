@@ -15,7 +15,7 @@ author_profile: true
 <h3 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Publications</h3>
 <ul style="line-height:1em">
 {% for post in site.publications reversed %}
-  <li> {% include archive-single.html %} </li>
+  <li> {% include archive-single-3.html %} </li>
 {% endfor %}
 </ul>
 
