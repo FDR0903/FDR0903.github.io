@@ -28,7 +28,7 @@ author_profile: true
 
 <h3 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Conference proceedings</h3>
 
-</ul>
+<ul>
 {% for post in site.conferences reversed %}
   <li> {% include archive-single.html %} </li>
 {% endfor %}
