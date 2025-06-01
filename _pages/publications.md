@@ -13,7 +13,7 @@ author_profile: true
 {% include base_path %}
 
 <h3 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Publications</h3>
-<ul>
+<ul style="line-height:1em">
 {% for post in site.publications reversed %}
   <li> {% include archive-single.html %} </li>
 {% endfor %}
