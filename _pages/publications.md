@@ -19,11 +19,11 @@ author_profile: true
 {% endfor %}
 
 <h3 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Working papers</h3>
-
+<ul>
 {% for post in site.workingpapers %}
-  {% include archive-single-2.html %}
+  <li> {% include archive-single-2.html %} </li>
 {% endfor %}
-
+</ul>
 
 <h3 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Conference proceedings</h3>
 
