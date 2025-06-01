@@ -41,7 +41,7 @@
         </h2>
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} 
         {% elsif post.collection == 'publications' %}
-          <p> <font size="-0.7">{{ title}}<br> <i><b>{{ post.venue }}</b></i></font>
+          <p> <font size="-0.7">{{ title}}. <u><em>{{ post.venue }}</em></u></font>
           <!-- <p> <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}  -->
         {% elsif post.collection == 'conferences' %}
         <p><font size="-0.7">{{ title}}<br><i><b>{{ post.venue }}</b></i></font> 
