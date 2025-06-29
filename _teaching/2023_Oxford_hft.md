@@ -8,14 +8,14 @@ date: 2024-02-01
 location: "Oxford, United-Kingdom"
 ---
 
-### Lecture notes [here](https://fdr0903.github.io/files/HFT_2024___Oxford___lecture_notes.pdf).
+### Lecture notes [here](https://fdr0903.github.io/files/HFT_2024___Oxford___lecture_notes_2024.pdf).
 This course covers different models of Algorithmic and High Frequency trading for optimal execution of large orders and optimal market making in limit order books and over-the-counter markets using tools from convex analysis, stochastic optimal control, and economics.
 
 Slides and material
 ======
 
 ### Lecture notes
-The course lecture notes are [here](http://fdr0903.github.io/files/HFT_2024___Oxford___lecture_notes.pdf). 
+The course lecture notes are [here](http://fdr0903.github.io/files/HFT_2024___Oxford___lecture_notes_2024.pdf). 
 
 
 Syllabus
