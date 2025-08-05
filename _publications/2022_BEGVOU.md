@@ -1,5 +1,5 @@
 ---
-title: "Drissi, F (2022). Solvability of differential Riccati equations and applications to algorithmic trading with signals"
+title: "Drissi, F (2022). Solvability of differential Riccati equations and applications to algorithmic trading with signals."
 collection: publications
 permalink: /publication/solvability_riccati
 excerpt: #'This paper is about the number 3. The number 4 is left for future work.'

@@ -1,5 +1,5 @@
 ---
-title: "Bergault, P., Drissi, F., & Guéant, O (2022). Multi-asset Optimal Execution and Statistical Arbitrage Strategies under Ornstein-Uhlenbeck Dynamics"
+title: "Bergault, P., Drissi, F., & Guéant, O (2022). Multi-asset Optimal Execution and Statistical Arbitrage Strategies under Ornstein-Uhlenbeck Dynamics."
 collection: publications
 permalink: /publication/multi_asset_execution_stat_arb
 excerpt: #'This paper is about the number 3. The number 4 is left for future work.'

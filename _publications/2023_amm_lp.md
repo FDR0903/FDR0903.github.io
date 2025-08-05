@@ -1,5 +1,5 @@
 ---
-title: "Cartea, Á., Drissi, F., & Monga, M (2024). Decentralised finance and automated market making: Predictable loss and optimal liquidity provision"
+title: "Cartea, Á., Drissi, F., & Monga, M (2024). Decentralised finance and automated market making: Predictable loss and optimal liquidity provision."
 collection: workingpapers
 permalink: /workingpapers/amm_lp
 excerpt: #'This paper is about the number 3. The number 4 is left for future work.'
