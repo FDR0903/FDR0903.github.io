@@ -30,6 +30,8 @@ Blockchain technology, asset digitisation, and machine learning are reshaping th
 
 ## Events I organize
 - 2023 - 2026 [OMI Finance Seminar](https://oxford-man.ox.ac.uk/omifinanceseminar/).
+- 2025: [INFORMS Session on Blockchain Economics and Decentralized Finance](https://oxford-man.ox.ac.uk/omifinanceseminar/).
+- 2025: [SIAM minisymp on Decentralized Finance and Market Microstructure](https://oxford-man.ox.ac.uk/omifinanceseminar/).
 - 2025: [Workshop on Decentralized Finance and Market Microstructure, Fields Institute](http://www.fields.utoronto.ca/activities/24-25/decentralized-finance).
 - 2025: [Oxford-Harvard Conference on Decentralised Finance and Market Microstructure](https://sites.google.com/view/oxford-harvard-defi/home).
 - 2023: [Financial Technology Conference, University of Oxford](https://oxford-man.ox.ac.uk/event/financial-technology/).
