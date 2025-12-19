@@ -1,5 +1,5 @@
 ---
-title: "Cartea, Á., Drissi, F., Sánchez-Betancourt, L., Siska, D., & Szpruch, L (2024). Strategic bonding curves in automated market makers."
+title: "Cartea Á., Drissi F., Sánchez-Betancourt L., Siska D., & Szpruch L. (2024). Strategic bonding curves in automated market makers."
 collection: workingpapers
 permalink: /workingpapers/amm_alp
 excerpt: #'This paper is about the number 3. The number 4 is left for future work.'
