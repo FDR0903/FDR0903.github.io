@@ -12,6 +12,26 @@ author_profile: true
 
 {% include base_path %}
 
+<h2 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Research in Finance</h3>
+
+
+<h3 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">PublicationsF</h3>
+<ul style="line-height:1.2em; text-align:justify">
+{% for post in site.publicationsF reversed %}
+  <li> {% include archive-single-3.html %} </li>
+{% endfor %}
+</ul>
+
+<h3 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">WorkingF</h3>
+<ul style="line-height:1.2em; text-align:justify">
+{% for post in site.workingpapersF reversed%}
+  <li> {% include archive-single-3.html %} </li>
+{% endfor %}
+</ul>
+
+<h2 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Research in Operation Research and Financial Engineering</h3>
+
+
 <h3 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Publications</h3>
 <ul style="line-height:1.2em; text-align:justify">
 {% for post in site.publications reversed %}
