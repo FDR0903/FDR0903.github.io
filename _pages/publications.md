@@ -30,9 +30,6 @@ author_profile: true
 {% endfor %}
 </ul>
 
-<br><br>
-
-
 <center><h2 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Research in Operations Research and Financial Engineering</h2></center>
 
 
