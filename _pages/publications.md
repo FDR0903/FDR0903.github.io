@@ -12,41 +12,49 @@ author_profile: true
 
 {% include base_path %}
 
-<h2 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Research in Finance</h3>
+
+<center><h2 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Research in Finance</h2></center>
 
 
-<h3 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">PublicationsF</h3>
+<h4 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Publications</h4>
 <ul style="line-height:1.2em; text-align:justify">
 {% for post in site.publicationsF reversed %}
   <li> {% include archive-single-3.html %} </li>
 {% endfor %}
 </ul>
 
-<h3 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">WorkingF</h3>
+<h4 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Working papers</h4>
 <ul style="line-height:1.2em; text-align:justify">
-{% for post in site.workingpapersF reversed%}
+{% for post in site.workingpapersfinance reversed%}
   <li> {% include archive-single-3.html %} </li>
 {% endfor %}
 </ul>
 
-<h2 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Research in Operation Research and Financial Engineering</h3>
+<br><br>
 
 
-<h3 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Publications</h3>
+<center><h2 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Research in Operations Research and Financial Engineering</h2></center>
+
+
+<h4 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Publications</h4>
 <ul style="line-height:1.2em; text-align:justify">
-{% for post in site.publications reversed %}
+{% for post in site.publicationsfinance reversed %}
   <li> {% include archive-single-3.html %} </li>
 {% endfor %}
 </ul>
 
-<h3 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Working papers</h3>
+<h4 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Working papers</h4>
 <ul style="line-height:1.2em; text-align:justify">
 {% for post in site.workingpapers reversed%}
   <li> {% include archive-single-3.html %} </li>
 {% endfor %}
 </ul>
 
-<h3 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Conference proceedings</h3>
+<br><br>
+
+<center>
+<h2 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Research in Machine Learning</h2></center>
+
 
 <ul style="line-height:1.2em; text-align:justify">
 {% for post in site.conferences reversed %}
