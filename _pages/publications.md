@@ -23,12 +23,16 @@ author_profile: true
 {% endfor %}
 </ul>
 
+
 <h4 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Working papers</h4>
 <ul style="line-height:1.2em; text-align:justify">
 {% for post in site.workingpapersfinance %}
   <li> {% include archive-single-fin.html %} </li>
 {% endfor %}
 </ul>
+
+<br><br>
+
 
 <center><h2 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Operations Research and Financial Engineering</h2></center>
 
@@ -51,7 +55,6 @@ author_profile: true
 
 <center>
 <h2 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Machine Learning</h2></center>
-
 
 <ul style="line-height:1.2em; text-align:justify">
 {% for post in site.conferences reversed %}
