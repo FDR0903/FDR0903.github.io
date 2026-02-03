@@ -1,5 +1,5 @@
 ---
-title: "Capponi A., Cartea Á., & Drissi F. (2025). Do longer block times impair market efficiency in ddecentralized markets?"
+title: "Capponi A., Cartea Á., & Drissi F. (2025). Do longer block times impair market efficiency in decentralized markets?"
 collection: workingpapersfinance
 permalink: /workingpapers/mempools
 excerpt: #'This paper is about the number 3. The number 4 is left for future work.'
