@@ -181,7 +181,13 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  publicationsfinance:
+    output: true
+    permalink: /:collection/:path/
   workingpapers:
+    output: true
+    permalink: /:collection/:path/
+  workingpapersfinance:
     output: true
     permalink: /:collection/:path/
   conferences:
@@ -228,6 +234,9 @@ defaults:
   - scope:
       path: ""
       type: publications
+  - scope:
+      path: ""
+      type: publicationsfinance
     values:
       layout: single
       author_profile: true
@@ -246,6 +255,9 @@ defaults:
   - scope:
       path: ""
       type: workingpapers
+  - scope:
+      path: ""
+      type: workingpapersfinance
     values:
       layout: single
       author_profile: true
