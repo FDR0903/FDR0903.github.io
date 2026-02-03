@@ -13,7 +13,7 @@ author_profile: true
 {% include base_path %}
 
 
-<center><h2 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Research in Finance</h2></center>
+<center><h2 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Finance</h2></center>
 
 
 <h4 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Publications</h4>
@@ -30,7 +30,7 @@ author_profile: true
 {% endfor %}
 </ul>
 
-<center><h2 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Research in Operations Research and Financial Engineering</h2></center>
+<center><h2 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Operations Research and Financial Engineering</h2></center>
 
 
 <h4 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Publications</h4>
@@ -50,7 +50,7 @@ author_profile: true
 <br><br>
 
 <center>
-<h2 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Research in Machine Learning</h2></center>
+<h2 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Machine Learning</h2></center>
 
 
 <ul style="line-height:1.2em; text-align:justify">
