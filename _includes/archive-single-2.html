@@ -51,6 +51,8 @@
       <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
     {% elsif post.collection == 'workingpapers' %}
       <p> <font size="-0.7">{{ title}}. <u><em>{{ post.venue }}</em></u></font>
+    {% elsif post.collection == 'workingpapersfinance' %}
+      <p> <font size="-0.7">{{ title}}. <u><em>{{ post.venue }}</em></u></font>
     {% elsif post.date %}
       <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
     {% endif %}

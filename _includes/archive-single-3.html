@@ -51,7 +51,11 @@
     <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
 {% elsif post.collection == 'workingpapers' %}
     <font size="-0.7">{{ title}} <br> <em><strong>{{ post.venue }}</strong></em></font>
+{% elsif post.collection == 'workingpapersfinance' %}
+    <font size="-0.7">{{ title}} <br> <em><strong>{{ post.venue }}</strong></em></font>
 {% elsif post.collection == 'publications' %}
+    <font size="-0.7">{{ title}} <br> <em><strong>{{ post.venue }}</strong></em></font>
+{% elsif post.collection == 'publicationsfinance' %}
     <font size="-0.7">{{ title}} <br> <em><strong>{{ post.venue }}</strong></em></font>
 {% elsif post.collection == 'conferences' %}
     <font size="-0.7">{{ title}} <br> <em><strong>{{ post.venue }}</strong></em></font>
