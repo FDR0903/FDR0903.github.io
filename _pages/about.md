@@ -8,27 +8,38 @@ redirect_from:
   - /about.html
 ---
 
+<small> <small> 
 I am currently a postdoctoral researcher at the [Oxford-Man Institute](https://oxford-man.ox.ac.uk/), University of Oxford.  I obtained a Ph.D. in Mathematics from Université Paris 1 Panthéon-Sorbonne in 2023. My [thesis](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4424010) focused on the microstructure of traditional electronic markets and decentralised exchanges that use Automated Market Makers (AMMs).
 
-Prior to my doctoral studies, I spent five years in the hedge fund industry doing research and development related to systematic trading and global macro. 
+Prior to my doctoral studies, I spent four years in the hedge fund industry doing research and development related to systematic trading and global macro. 
 
-Outside of Academia, I am passionate about climbing, mountaineering, running, and languages. Feel free to reach out to chat about research or any of these interests!
+Outside of Academia, I am passionate about climbing, mountaineering, and languages. 
+</small> </small> 
 
+## Research Interests 
 
-## Research Interests
-Blockchain technology, asset digitisation, and machine learning are reshaping the future of the financial landscape and challenging traditional stakeholders. In this context, my research focuses on (i) the economics and microstructure of <u>decentralised financial markets</u> and <u>automated market makers</u>, and on (ii) combining Mathematics and <u>Machine Learning</u> for financial decision problems.
+<small> <small> 
+Blockchain technology, asset digitisation, and machine learning are reshaping the future of the financial landscape and challenging traditional stakeholders. In this context, my research focuses on (i) the economics of blockchains and <u>decentralised financial systems</u>, and on (ii) <u>Machine Learning</u> for financial decision problems.
+</small> </small> 
+
 
 ## Research grants and Awards
+<small> <small> 
+
 - 2025: **Research Grant**, **Uniswap**. *Fixed for Floating Fee Swap in Decentralized Finance* 
 - 2023: **PhD research grant**, **G-Research**, *Unsupervised Learning for Algorithmic Trading*.
 - 2023: **Best PhD Thesis prize**, **EWGCFM** EURO Working Group for Commodities and Financial Modelling, *Decentralized Finance, Execution and Speculation*.
 - 2022: **Research Grant**, **Chaire Fintech University Paris Dauphine ‑ PSL**. *Decentralised finance and automated market making: Predictable loss and optimal liquidity provision* 
-
+</small> </small> 
 
 ## Editorial services
+<small> <small> 
+
 - Topic editor for The Journal of FinTech. 
+</small> </small> 
 
 ## Events I organize
+- 2026 [OMI-SBS Conference on FinTech and Blockchain Economics](https://sites.google.com/view/omi-sbs-defi/home).
 - 2023 - 2026 [OMI Finance Seminar](https://oxford-man.ox.ac.uk/omifinanceseminar/).
 - 2025: [INFORMS Session on Blockchain Economics and Decentralized Finance](https://oxford-man.ox.ac.uk/omifinanceseminar/).
 - 2025: [SIAM minisymp on Decentralized Finance and Market Microstructure](https://oxford-man.ox.ac.uk/omifinanceseminar/).
