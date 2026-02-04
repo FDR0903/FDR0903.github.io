@@ -19,7 +19,7 @@ author_profile: true
 <h4 style="padding-bottom: 8px;margin-bottom: 8px;border-bottom: solid 1px #e1e1e1;">Publications</h4>
 <ul style="line-height:1.2em; text-align:justify">
 {% for post in site.publicationsfinance reversed %}
-  <li> {% include archive-single-fin.html %} </li>
+  <li> {% include archive-single-fin2.html %} </li>
 {% endfor %}
 </ul>
 
