@@ -1,5 +1,5 @@
 ---
-title: "Cartea, Á., Drissi, F., & Monga, M. Execution and statistical arbitrage with signals in multiple automated market makers."
+title: "Álvaro Cartea, Drissi, F., & Monga, M. Execution and statistical arbitrage with signals in multiple automated market makers."
 collection: conferences
 permalink: /conferences/amm_ieee
 excerpt: #'This paper is about the number 3. The number 4 is left for future work.'
