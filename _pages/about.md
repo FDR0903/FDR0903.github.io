@@ -30,7 +30,8 @@ Blockchain technology, asset digitisation, and machine learning are reshaping th
 - 2022: **Research Grant**, **Chaire Fintech University Paris Dauphine ‑ PSL**. *Decentralised finance and automated market making: Predictable loss and optimal liquidity provision* 
 
 
-## Editorial services
+## Academic activities / services
+- Referee: Management Science, Operations Research, Annals of Operations Research, Mathematical Finance, Finance & Stochastics
 - Topic editor for The Journal of FinTech. 
 
 ## Events I organize
