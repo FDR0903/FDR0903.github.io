@@ -9,6 +9,16 @@ location: "Oxford, United-Kingdom"
 ---
 
 ### Lecture notes [here](https://fdr0903.github.io/files/HFT_2024___Oxford___lecture_notes_2024.pdf).
+### Course slides: 
+#### course 1 [here](https://fdr0903.github.io/files/HFT_slides/course1.pdf).
+#### course 2 [here](https://fdr0903.github.io/files/HFT_slides/course2.pdf).
+#### course 3 [here](https://fdr0903.github.io/files/HFT_slides/course3.pdf).
+#### course 4 [here](https://fdr0903.github.io/files/HFT_slides/course4.pdf).
+#### course 5 [here](https://fdr0903.github.io/files/HFT_slides/course5.pdf).
+#### course 6 [here](https://fdr0903.github.io/files/HFT_slides/course6.pdf).
+#### course 7 [here](https://fdr0903.github.io/files/HFT_slides/course7.pdf).
+#### course 8 [here](https://fdr0903.github.io/files/HFT_slides/course8.pdf).
+
 This course covers different models of Algorithmic and High Frequency trading for optimal execution of large orders and optimal market making in limit order books and over-the-counter markets using tools from convex analysis, stochastic optimal control, and economics.
 
 Slides and material
