@@ -127,7 +127,7 @@ redirect_from:
 <div class="home-page" markdown="1">
 
 <p class="home-lead">
-I am a postdoctoral researcher at the <a href="https://oxford-man.ox.ac.uk/">Oxford-Man Institute of Quantitative Finance</a>, University of Oxford. I obtained my Ph.D. in Mathematics from Université Paris 1 Panthéon-Sorbonne in 2023, with a <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4424010">thesis</a> on the microstructure of traditional electronic markets and decentralised exchanges based on Automated Market Makers (AMMs).
+I am a postdoctoral researcher at the <a href="https://oxford-man.ox.ac.uk/">Oxford-Man Institute of Quantitative Finance</a>, University of Oxford. I obtained my Ph.D. in Mathematics from Université Paris 1 Panthéon-Sorbonne in 2023, with a <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4424010">thesis</a> on the microstructure of traditional electronic markets and decentralised exchanges.
 </p>
 
 Prior to my doctoral studies, I spent four years in the hedge fund industry working on systematic trading and global macro research.
