@@ -72,6 +72,39 @@ redirect_from:
 .home-selected a::before { content: "["; color: #888; }
 .home-selected a::after  { content: "]"; color: #888; }
 
+.home-selected-conf {
+  margin-top: 0.3em;
+  font-size: 0.85em;
+  color: #444;
+}
+.home-selected-conf .home-conf-label {
+  font-style: italic;
+  font-weight: 500;
+}
+.home-selected-conf ul {
+  list-style: none;
+  padding-left: 0.4em;
+  margin: 0.15em 0 0 0;
+}
+.home-selected-conf li {
+  font-style: italic;
+  font-weight: 600;
+  color: #1a1a1a;
+  padding-left: 1em;
+  position: relative;
+  margin-bottom: 0.1em;
+}
+.home-selected-conf li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: #888;
+  font-style: normal;
+  font-weight: normal;
+}
+.home-selected-conf a::before,
+.home-selected-conf a::after { content: ""; }
+
 .home-list {
   padding-left: 1.2em;
 }
@@ -115,8 +148,27 @@ Blockchain technology, asset digitisation, and machine learning are reshaping th
 A complete list is available on the <a href="{{ base_path }}/publications/">publications</a> page.
 
 <ol class="home-selected">
-  <li>Capponi, A., Cartea, Á., Drissi, F. (2025). The Viability of Blockchain Markets under Discrete Clearing and Paid Priority. <a href="https://fdr0903.github.io/files/mempools.pdf">link</a></li>
-  <li>Drissi, F., Feinstein, Z., Williams, B. (2026). Liquid Staking and the Limits of Policy. <a href="https://fdr0903.github.io/files/LST.pdf">link</a></li>
+  <li>
+    Capponi, A., Cartea, Á., Drissi, F. (2025). The Viability of Blockchain Markets under Discrete Clearing and Paid Priority. <a href="https://fdr0903.github.io/files/mempools.pdf">link</a>
+    <div class="home-selected-conf">
+      <span class="home-conf-label">Presented at / Accepted at:</span>
+      <ul>
+        <li>NBER Summer Institute 2026, Financial Market Structure, Cambridge, MA</li>
+        <li>6th Annual CBER Conference, New York, 2026</li>
+        <li>41st Meeting of the European Economic Association and the 77th European Meeting of the Econometric Society (EEA-ESEM 2026)</li>
+      </ul>
+    </div>
+  </li>
+  <li>
+    Drissi, F., Feinstein, Z., Williams, B. (2026). Liquid Staking and the Limits of Policy. <a href="https://fdr0903.github.io/files/LST.pdf">link</a>
+    <div class="home-selected-conf">
+      <span class="home-conf-label">Presented at / Accepted at:</span>
+      <ul>
+        <li>CBER Crafting the Cryptoeconomy Conference, Columbia University, 2025</li>
+        <li>Designing DeFi Conference, Columbia Business School, New York, 2026</li>
+      </ul>
+    </div>
+  </li>
 </ol>
 
 
