@@ -1,0 +1,19 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="pub-item">
+<span class="pub-title">{{ title }}</span>{% if post.venue and post.venue != '' %} <em class="pub-venue">{{ post.venue }}</em>{% endif %}{% if post.paperurl and post.paperurl != '' %} <a class="pub-link" href="{{ post.paperurl }}">link</a>{% endif %}{% if post.code and post.code != '' %} <a class="pub-link" href="{{ post.code }}">code</a>{% endif %}
+{% if post.presented %}
+<div class="pub-presented">
+<span class="pub-label">Presented at / Accepted at:</span>
+<ul class="pub-conf-list">
+{% for c in post.presented %}  <li>{{ c }}</li>
+{% endfor %}</ul>
+</div>
+{% endif %}
+</div>

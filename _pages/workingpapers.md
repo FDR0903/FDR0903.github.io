@@ -12,6 +12,8 @@ author_profile: true
 
 {% include base_path %}
 
+<ul class="pub-list" style="list-style:none;padding-left:0;">
 {% for post in site.workingpapers reversed %}
-  {% include archive-single-2.html %}
+  <li>{% include archive-single-paper.html %}</li>
 {% endfor %}
+</ul>
