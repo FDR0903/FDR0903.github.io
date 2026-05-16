@@ -7,6 +7,130 @@ author_profile: false
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+<style>
+:root {
+  --teach-serif: "Charter", "Charter BT", "Source Serif 4", "Source Serif Pro", "Sitka Text", "Iowan Old Style", Georgia, "Times New Roman", Times, serif;
+}
+.teach-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.4em;
+}
+.teach-item {
+  font-family: var(--teach-serif);
+  color: #1a1a1a;
+  display: flex;
+  gap: 1.6em;
+  padding: 1.1em 0;
+  border-bottom: solid 1px #ececec;
+}
+.teach-item:last-child { border-bottom: none; }
+.teach-year {
+  flex-shrink: 0;
+  font-family: var(--teach-serif);
+  font-size: 1.05em;
+  font-weight: 600;
+  color: #888;
+  font-variant: tabular-nums;
+  width: 4em;
+  padding-top: 0.05em;
+}
+.teach-body {
+  flex: 1;
+  min-width: 0;
+}
+.teach-title {
+  font-family: var(--teach-serif);
+  font-size: 1.08em;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 0.15em 0;
+  line-height: 1.3;
+}
+.teach-meta {
+  font-family: var(--teach-serif);
+  font-size: 0.92em;
+  color: #555;
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
+.teach-meta .teach-type {
+  font-style: normal;
+  font-weight: 500;
+}
+.teach-summary {
+  font-family: var(--teach-serif);
+  font-size: 0.95em;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 0.6em;
+  text-align: justify;
+}
+.teach-links {
+  font-size: 0.9em;
+}
+.teach-links a {
+  display: inline-block;
+  margin-right: 0.4em;
+  padding: 0.18em 0.7em;
+  border: 1px solid #d0d0d0;
+  border-radius: 3px;
+  color: #444;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+.teach-links a:hover {
+  border-color: #888;
+  color: #111;
+  background: #f7f7f7;
+}
+.teach-slides-label {
+  margin-left: 0.6em;
+  margin-right: 0.15em;
+  font-style: italic;
+  color: #666;
+  font-size: 0.95em;
+}
+.teach-links a.teach-slide-num {
+  padding: 0.1em 0.45em;
+  margin-right: 0.15em;
+  font-variant: tabular-nums;
+  min-width: 1.6em;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .teach-item { flex-direction: column; gap: 0.2em; }
+  .teach-year { width: auto; font-size: 1em; }
+}
+
+h1.page__title { font-family: var(--teach-serif); }
+</style>
+
+{% assign sorted = site.teaching | sort: "date" | reverse %}
+<ul class="teach-list">
+{% for post in sorted %}
+  {% assign year = post.date | date: "%Y" %}
+  {% assign clean_title = post.title | remove_first: year | remove_first: " - " | remove: " - Lecturer" | strip %}
+  <li class="teach-item">
+    <div class="teach-year">{{ year }}</div>
+    <div class="teach-body">
+      <h3 class="teach-title">{{ clean_title }}</h3>
+      {% assign venue_clean = post.venue | strip | remove_first: "." | replace: " - ", " · " %}
+      <div class="teach-meta">
+        {% if post.type %}<span class="teach-type">{{ post.type }}</span>{% endif %}{% if post.type and post.venue %} &middot; {% endif %}{{ venue_clean }}
+      </div>
+      {% if post.summary %}<div class="teach-summary">{{ post.summary }}</div>{% endif %}
+      {% if post.links or post.slides %}
+      <div class="teach-links">
+        {% for l in post.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}
+        {% if post.slides %}
+          <span class="teach-slides-label">Slides:</span>
+          {% for s in post.slides %}<a class="teach-slide-num" href="{{ s.url }}">{{ s.label }}</a>{% endfor %}
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
+  </li>
 {% endfor %}
+</ul>

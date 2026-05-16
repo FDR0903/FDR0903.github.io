@@ -6,6 +6,10 @@ permalink: /teaching/2024_ctf
 venue: "University of Oxford - Saïd Business School - MSc Financial Economics."
 date: 2025-04-01
 location: "Oxford, United-Kingdom"
+summary: "Introduction to stochastic calculus and continuous-time models in finance: option pricing with binomial trees and Brownian motion, the Black–Scholes model, stochastic volatility, affine term-structure models, and Monte Carlo simulation."
+links:
+  - label: "Lecture notes & slides"
+    url: "https://fdr0903.github.io/ctf25"
 ---
 
 ### Lecture notes [here](https://fdr0903.github.io/ctf25).

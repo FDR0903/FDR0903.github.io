@@ -245,7 +245,7 @@ A complete list is available on the <a href="{{ base_path }}/publications/">publ
 
 <ol class="home-selected">
   <li>
-    Capponi, A., Cartea, Á., Drissi, F. (2025). The Viability of Blockchain Markets under Discrete Clearing and Paid Priority. <a href="https://fdr0903.github.io/files/mempools.pdf">link</a>
+    Capponi, A., Cartea, Á., Drissi, F. (2025). The Viability of Blockchain Markets under Discrete Clearing and Paid Priority. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5290232">link</a>
     <div class="home-selected-conf">
       <span class="home-conf-label">Presented at / Accepted at:</span>
       <ul>
@@ -256,7 +256,7 @@ A complete list is available on the <a href="{{ base_path }}/publications/">publ
     </div>
   </li>
   <li>
-    Drissi, F., Feinstein, Z., Williams, B. (2026). Liquid Staking and the Limits of Policy. <a href="https://fdr0903.github.io/files/LST.pdf">link</a>
+    Drissi, F., Feinstein, Z., Williams, B. (2026). Liquid Staking and the Limits of Policy. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6173222">link</a>
     <div class="home-selected-conf">
       <span class="home-conf-label">Presented at / Accepted at:</span>
       <ul>

@@ -6,6 +6,27 @@ permalink: /teaching/2023_hft
 venue: "University of Oxford - Mathematical and Computational Finance MSc"
 date: 2024-02-01
 location: "Oxford, United-Kingdom"
+summary: "Algorithmic and high-frequency trading models for optimal execution of large orders and market making in limit order books and OTC markets, using convex analysis, stochastic optimal control, and economics."
+links:
+  - label: "Lecture notes"
+    url: "https://fdr0903.github.io/files/HFT_2024___Oxford___lecture_notes_2024.pdf"
+slides:
+  - label: "1"
+    url: "https://fdr0903.github.io/files/HFT_slides/course1.pdf"
+  - label: "2"
+    url: "https://fdr0903.github.io/files/HFT_slides/course2.pdf"
+  - label: "3"
+    url: "https://fdr0903.github.io/files/HFT_slides/course3.pdf"
+  - label: "4"
+    url: "https://fdr0903.github.io/files/HFT_slides/course4.pdf"
+  - label: "5"
+    url: "https://fdr0903.github.io/files/HFT_slides/course5.pdf"
+  - label: "6"
+    url: "https://fdr0903.github.io/files/HFT_slides/course6.pdf"
+  - label: "7"
+    url: "https://fdr0903.github.io/files/HFT_slides/course7.pdf"
+  - label: "8"
+    url: "https://fdr0903.github.io/files/HFT_slides/course8.pdf"
 ---
 
 ### Lecture notes [here](https://fdr0903.github.io/files/HFT_2024___Oxford___lecture_notes_2024.pdf).

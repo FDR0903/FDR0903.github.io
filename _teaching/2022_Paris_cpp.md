@@ -6,6 +6,10 @@ permalink: /teaching/2022_Paris_cpp
 venue: "Université Paris 1 Panthéon‑Sorbonne"
 date: 2022-03-01
 location: "Paris, France"
+summary: "Object-oriented programming in C++ — classes, inheritance, templates, exceptions — with applications to designing a financial pricing library for vanilla and path-dependent options."
+links:
+  - label: "Lecture notes & slides"
+    url: "https://fdr0903.github.io/files/slides_cpp.pdf"
 ---
 
 ### Lecture notes [here](https://fdr0903.github.io/files/slides_cpp.pdf).
@@ -30,7 +34,7 @@ operands (expression), how to choose among alternative actions (selection), and 
 This course discusses correctness of programs, errors, and error handling.
 
 #### C++ functions and technicalities
-This course presents language-technical details to give a slightly broader view of C++’s basic facilities and to provide a more systematic view of those facilities. 
+This course presents language-technical details to give a slightly broader view of C++'s basic facilities and to provide a more systematic view of those facilities. 
 
 #### Object-Oriented-Programming and Classes
 This course presents language technicalities, mostly related to user-defined types, that is, to classes and enumerations.
@@ -39,4 +43,4 @@ This course presents language technicalities, mostly related to user-defined typ
 This course introduces a simple Monte Carlo model which does not use Object-Oriented-Programming techniques but rather is the simplest procedural model for pricing an option. We examine its shortcomings and discuss how classes naturally arise from the concepts involved in its construction. Gradually, we introduce needs and how to address them using OOP concepts.
 
 #### Testing
-The last two classes consist in illustrating C++ design concepts by developing together and gradually, a basic financial C++ library for pricing simple derivatives using different methods, and illustrating the use of Object Oriented Programming concepts for real life problems faced by Quant teams in the industry. After the sixth and final course and before the final exam,  students are provided with the library developed in class, and are asked to add features using the concepts learned in class. 
+The last two classes consist in illustrating C++ design concepts by developing together and gradually, a basic financial C++ library for pricing simple derivatives using different methods, and illustrating the use of Object Oriented Programming concepts for real life problems faced by Quant teams in the industry. After the sixth and final course and before the final exam,  students are provided with the library developed in class, and are asked to add features using the concepts learned in class.
