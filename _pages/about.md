@@ -1,7 +1,8 @@
 ---
 permalink: /
 excerpt: "Home"
-author_profile: true
+author_profile: false
+title: ""
 redirect_from: 
   - /about/
   - /about.html
@@ -122,9 +123,104 @@ redirect_from:
 .home-contact {
   font-size: 0.98em;
 }
+
+/* Academic header at the top of the home page */
+.home-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.8em;
+  margin-top: 0.4em;
+  margin-bottom: 1.8em;
+  padding-bottom: 1.4em;
+  border-bottom: solid 1px #e1e1e1;
+}
+.home-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 2px;
+  flex-shrink: 0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+}
+.home-meta {
+  flex: 1;
+  min-width: 0;
+}
+.home-name {
+  font-family: var(--home-serif);
+  font-size: 1.7em;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #1a1a1a;
+  margin: 0 0 0.4em 0;
+  line-height: 1.15;
+  border: none;
+  padding: 0;
+  text-transform: none;
+  font-variant: normal;
+}
+.home-affiliation {
+  font-family: var(--home-serif);
+  font-size: 0.98em;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 0.9em;
+}
+.home-affiliation .home-role {
+  font-style: italic;
+}
+.home-icons {
+  font-size: 0.9em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2em 1.2em;
+}
+.home-icons a {
+  color: #444;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.home-icons a:hover {
+  text-decoration: underline;
+}
+.home-icons a i {
+  margin-right: 0.35em;
+  color: #666;
+  font-size: 0.95em;
+}
+
+@media (max-width: 600px) {
+  .home-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .home-icons {
+    justify-content: center;
+  }
+}
 </style>
 
 <div class="home-page" markdown="1">
+
+<div class="home-header">
+  <img src="{{ base_path }}/images/myface.png" alt="Fayçal Drissi" class="home-photo">
+  <div class="home-meta">
+    <h1 class="home-name">Fayçal Drissi</h1>
+    <div class="home-affiliation">
+      <span class="home-role">Postdoctoral Researcher</span><br>
+      Oxford-Man Institute of Quantitative Finance<br>
+      University of Oxford
+    </div>
+    <div class="home-icons">
+      <a href="mailto:faycal.drissi@gmail.com"><i class="fas fa-envelope"></i>Email</a>
+      <a href="https://scholar.google.com/citations?user=njvyriQAAAAJ"><i class="ai ai-google-scholar"></i>Google Scholar</a>
+      <a href="https://www.linkedin.com/in/fay%C3%A7al-drissi-95b16241/"><i class="fab fa-linkedin"></i>LinkedIn</a>
+      <a href="https://github.com/FDR0903"><i class="fab fa-github"></i>GitHub</a>
+      <a href="{{ base_path }}/cv/"><i class="fas fa-file-alt"></i>CV</a>
+    </div>
+  </div>
+</div>
 
 <p class="home-lead">
 I am a postdoctoral researcher at the <a href="https://oxford-man.ox.ac.uk/">Oxford-Man Institute of Quantitative Finance</a>, University of Oxford. I obtained my Ph.D. in Mathematics from Université Paris 1 Panthéon-Sorbonne in 2023, with a <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4424010">thesis</a> on the microstructure of traditional electronic markets and decentralised exchanges.

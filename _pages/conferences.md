@@ -2,7 +2,7 @@
 layout: archive
 title: "Conference proceedings"
 permalink: /conferences/
-author_profile: true
+author_profile: false
 ---
 
 {% if author.googlescholar %}

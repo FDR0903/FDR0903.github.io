@@ -39,3 +39,26 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* When the sidebar is disabled (author_profile: false), content reserved
+   the right 2/12 columns for it — claim the full width back. */
+@include breakpoint($large) {
+  .page,
+  .archive {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* Widen the overall content cap. Minimal Mistakes ships 925px / 1280px,
+   which felt narrow on wide monitors once the sidebar was removed. */
+#main {
+  max-width: 1500px;
+
+  @include breakpoint($x-large) {
+    max-width: 1500px;
+  }
+}
