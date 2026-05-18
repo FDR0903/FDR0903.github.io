@@ -222,15 +222,6 @@ redirect_from:
   </div>
 </div>
 
-<p class="home-lead">
-I am a postdoctoral researcher at the <a href="https://oxford-man.ox.ac.uk/">Oxford-Man Institute of Quantitative Finance</a>, University of Oxford. I obtained my Ph.D. in Mathematics from Université Paris 1 Panthéon-Sorbonne in 2023, with a <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4424010">thesis</a> on the microstructure of traditional electronic markets and decentralised exchanges.
-</p>
-
-Prior to my doctoral studies, I spent four years in the hedge fund industry working on systematic trading and global macro research.
-
-Outside academia, I am passionate about climbing, mountaineering, and languages.
-
-
 ## Research interests
 
 Blockchain technology, asset digitisation, and machine learning are reshaping the financial landscape and challenging traditional stakeholders. My research focuses on two strands:
@@ -298,6 +289,17 @@ A complete list is available on the <a href="{{ base_path }}/publications/">publ
   <li><span class="home-year">2023</span> &mdash; <a href="https://oxford-man.ox.ac.uk/event/financial-technology/">Financial Technology Conference</a>, University of Oxford.</li>
   <li><span class="home-year">2023</span> &mdash; <a href="https://crest.science/blockchainx-omi-workshop-on-blockchain-and-decentralized-finance/">Blockchain@X–OMI Workshop on Blockchain and Decentralised Finance</a>, Ecole Polytechnique &amp; University of Oxford.</li>
 </ul>
+
+
+## More about me
+
+<p class="home-lead">
+I am a postdoctoral researcher at the <a href="https://oxford-man.ox.ac.uk/">Oxford-Man Institute of Quantitative Finance</a>, University of Oxford. I obtained my Ph.D. in Mathematics from Université Paris 1 Panthéon-Sorbonne in 2023, with a <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4424010">thesis</a> on the microstructure of traditional electronic markets and decentralised exchanges.
+</p>
+
+Prior to my doctoral studies, I spent four years in the hedge fund industry working on systematic trading and global macro research.
+
+Outside academia, I am passionate about climbing, mountaineering, and languages.
 
 
 ## Contact

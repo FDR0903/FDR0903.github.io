@@ -53,12 +53,13 @@
   }
 }
 
-/* Widen the overall content cap. Minimal Mistakes ships 925px / 1280px,
-   which felt narrow on wide monitors once the sidebar was removed. */
+/* Overall content cap. Minimal Mistakes ships 925px / 1280px; we
+   went wider after the sidebar was removed, then dialled back to
+   1250px so prose lines stay comfortably readable. */
 #main {
-  max-width: 1500px;
+  max-width: 1250px;
 
   @include breakpoint($x-large) {
-    max-width: 1500px;
+    max-width: 1250px;
   }
 }
