@@ -240,7 +240,7 @@ A complete list is available on the <a href="{{ base_path }}/publications/">publ
     <div class="home-selected-conf">
       <span class="home-conf-label">Presented at / Accepted at:</span>
       <ul>
-        <li>NBER Summer Institute 2026, Financial Market Structure, Cambridge, MA</li>
+        <li><a href="https://www.nber.org/conferences/si-2026-financial-market-structure">NBER Summer Institute 2026, Financial Market Structure</a>, Cambridge, MA</li>
         <li>6th Annual CBER Conference, New York, 2026</li>
         <li>41st Meeting of the European Economic Association and the 77th European Meeting of the Econometric Society (EEA-ESEM 2026)</li>
       </ul>
