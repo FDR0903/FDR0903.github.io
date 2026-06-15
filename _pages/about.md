@@ -256,6 +256,9 @@ A complete list is available on the <a href="{{ base_path }}/publications/">publ
       </ul>
     </div>
   </li>
+  <li>
+    Cartea, Á., Drissi, F., Saleh, F. (2026). The Economics of Regulating Tokenized Securities. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6942338">link</a>
+  </li>
 </ol>
 
 
