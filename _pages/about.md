@@ -236,15 +236,7 @@ A complete list is available on the <a href="{{ base_path }}/publications/">publ
 
 <ol class="home-selected">
   <li>
-    Capponi, A., Cartea, Á., Drissi, F. (2025). The Viability of Blockchain Markets under Discrete Clearing and Paid Priority. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5290232">link</a>
-    <div class="home-selected-conf">
-      <span class="home-conf-label">Presented at / Accepted at:</span>
-      <ul>
-        <li><a href="https://www.nber.org/conferences/si-2026-financial-market-structure">NBER Summer Institute 2026, Financial Market Structure</a>, Cambridge, MA</li>
-        <li>6th Annual CBER Conference, New York, 2026</li>
-        <li>41st Meeting of the European Economic Association and the 77th European Meeting of the Econometric Society (EEA-ESEM 2026)</li>
-      </ul>
-    </div>
+    Cartea, Á., Drissi, F., Saleh, F. (2026). The Economics of Regulating Tokenized Securities. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6942338">link</a>
   </li>
   <li>
     Drissi, F., Feinstein, Z., Williams, B. (2026). Liquid Staking and the Limits of Policy. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6173222">link</a>
@@ -257,7 +249,15 @@ A complete list is available on the <a href="{{ base_path }}/publications/">publ
     </div>
   </li>
   <li>
-    Cartea, Á., Drissi, F., Saleh, F. (2026). The Economics of Regulating Tokenized Securities. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6942338">link</a>
+    Capponi, A., Cartea, Á., Drissi, F. (2025). The Viability of Blockchain Markets under Discrete Clearing and Paid Priority. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5290232">link</a>
+    <div class="home-selected-conf">
+      <span class="home-conf-label">Presented at / Accepted at:</span>
+      <ul>
+        <li><a href="https://www.nber.org/conferences/si-2026-financial-market-structure">NBER Summer Institute 2026, Financial Market Structure</a>, Cambridge, MA</li>
+        <li>6th Annual CBER Conference, New York, 2026</li>
+        <li>41st Meeting of the European Economic Association and the 77th European Meeting of the Econometric Society (EEA-ESEM 2026)</li>
+      </ul>
+    </div>
   </li>
 </ol>
 
