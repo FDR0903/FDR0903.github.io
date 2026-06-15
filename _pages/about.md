@@ -236,10 +236,10 @@ A complete list is available on the <a href="{{ base_path }}/publications/">publ
 
 <ol class="home-selected">
   <li>
-    Cartea, Á., Drissi, F., Saleh, F. (2026). The Economics of Regulating Tokenized Securities. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6942338">link</a>
+    Álvaro Cartea, Fayçal Drissi, Fahad Saleh (2026). The Economics of Regulating Tokenized Securities. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6942338">link</a>
   </li>
   <li>
-    Drissi, F., Feinstein, Z., Williams, B. (2026). Liquid Staking and the Limits of Policy. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6173222">link</a>
+    Fayçal Drissi, Zachary Feinstein, Basil Williams (2026). Liquid Staking and the Limits of Policy. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6173222">link</a>
     <div class="home-selected-conf">
       <span class="home-conf-label">Presented at / Accepted at:</span>
       <ul>
@@ -249,7 +249,7 @@ A complete list is available on the <a href="{{ base_path }}/publications/">publ
     </div>
   </li>
   <li>
-    Capponi, A., Cartea, Á., Drissi, F. (2025). The Viability of Blockchain Markets under Discrete Clearing and Paid Priority. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5290232">link</a>
+    Agostino Capponi, Álvaro Cartea, Fayçal Drissi (2025). The Viability of Blockchain Markets under Discrete Clearing and Paid Priority. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5290232">link</a>
     <div class="home-selected-conf">
       <span class="home-conf-label">Presented at / Accepted at:</span>
       <ul>
