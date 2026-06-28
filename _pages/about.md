@@ -237,6 +237,12 @@ A complete list is available on the <a href="{{ base_path }}/publications/">publ
 <ol class="home-selected">
   <li>
     Álvaro Cartea, Fayçal Drissi, Fahad Saleh (2026). The Economics of Regulating Tokenized Securities. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6942338">link</a>
+    <div class="home-selected-conf">
+      <span class="home-conf-label">Presented at / Accepted at:</span>
+      <ul>
+        <li>ToDeFi - Torino Decentralized Finance Conference 2026 (Keynote speech)</li>
+      </ul>
+    </div>
   </li>
   <li>
     Fayçal Drissi, Zachary Feinstein, Basil Williams (2026). Liquid Staking and the Limits of Policy. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6173222">link</a>

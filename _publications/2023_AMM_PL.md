@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Álvaro Cartea, Fayçal Drissi, Marcello Monga (2023). Predictable losses of liquidity provision in constant function markets and concentrated liquidity markets."
 collection: publications
 permalink: /publication/amm_pl

@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Fayçal Drissi (2022). Solvability of differential Riccati equations and applications to algorithmic trading with signals."
 collection: publications
 permalink: /publication/solvability_riccati

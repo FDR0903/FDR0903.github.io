@@ -8,4 +8,5 @@ venue: ''
 paperurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6942338'
 citation: 'Álvaro Cartea, Fayçal Drissi, Fahad Saleh (2026). The Economics of Regulating Tokenized Securities.'
 presented:
+  - "ToDeFi - Torino Decentralized Finance Conference 2026 (Keynote speech)"
 ---
