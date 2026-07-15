@@ -281,6 +281,7 @@ A complete list is available on the <a href="{{ base_path }}/publications/">publ
 ## Service and editorial activity
 
 <ul class="home-list">
+  <li>Guest Editor, <a href="https://www.worldscientific.com/page/ijtaf/callforpapers04?srsltid=AfmBOorzDeB17m6rrvAWQGCj9afHPM-OwKzs2u8Eu9l6rEAT4lz4KFaB">Special Issue on Decentralized Finance</a>, <em>International Journal of Theoretical and Applied Finance (IJTAF)</em>.</li>
   <li>Topic editor, <em>Journal of FinTech</em>.</li>
   <li>Referee for <em>Management Science</em>, <em>Operations Research</em>, <em>Annals of Operations Research</em>, <em>Mathematical Finance</em>, and <em>Finance &amp; Stochastics</em>.</li>
 </ul>
