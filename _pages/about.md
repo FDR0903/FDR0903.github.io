@@ -224,10 +224,11 @@ redirect_from:
 
 ## Research interests
 
-Blockchain technology, asset digitisation, and machine learning are reshaping the financial landscape and challenging traditional stakeholders. My research focuses on two strands:
+Finance digitization and AI are reshaping the financial landscape and challenging traditional stakeholders. My research focuses on:
 
-- **Economics of blockchains and decentralised financial systems** — microstructure of decentralised markets, incentive design in blockchain economies, and tokenisation.
-- **Machine learning for financial decision problems** — reinforcement learning and statistical inference.
+- **Economics of blockchains and decentralised financial systems**
+- **Artificial Intelligence and Industrial organization**
+- **Statistics and Machine Learning in Finance**
 
 
 ## Selected papers

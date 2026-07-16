@@ -1,6 +1,7 @@
 ---
 title: "Álvaro Cartea, Fayçal Drissi, Marcello Monga (2024). Decentralised finance and automated market making: Predictable loss and optimal liquidity provision."
 collection: publications
+selected: true
 permalink: /publication/amm_lp
 excerpt: #'This paper is about the number 3. The number 4 is left for future work.'
 date: 2024-06-11
