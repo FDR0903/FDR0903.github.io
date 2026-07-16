@@ -97,7 +97,12 @@ author_profile: false
 
   <ul class="pub-list">
   {% for post in selected_all %}
-    <li>{% include archive-single-paper.html %}</li>
+    <li>
+      <div class="pub-item">
+        <span class="pub-title">{{ post.short_title }}{% if post.coauthors and post.coauthors != '' %} (with {{ post.coauthors }}){% endif %}.</span><br>
+        <span class="pub-venue">{{ post.venue | remove: "." }} ({{ post.date | date: "%Y" }}).</span>{% if post.paperurl and post.paperurl != '' %} <a class="pub-link" href="{{ post.paperurl }}">link</a>{% endif %}{% if post.code and post.code != '' %} <a class="pub-link" href="{{ post.code }}">code</a>{% endif %}
+      </div>
+    </li>
   {% endfor %}
   </ul>
 </div>
