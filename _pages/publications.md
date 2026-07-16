@@ -123,53 +123,125 @@ author_profile: false
   font-style: normal;
   font-weight: normal;
 }
+
+.pub-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: solid 1px #d8d8d8;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+}
+.pub-tab {
+  font-family: var(--pub-serif);
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+  font-size: 1em;
+  font-weight: 600;
+  color: #888;
+  background: none;
+  border: none;
+  border-bottom: solid 2px transparent;
+  padding: 0.5em 1.1em;
+  margin-bottom: -1px;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+.pub-tab:hover { color: #1a1a1a; }
+.pub-tab.is-active {
+  color: #1a1a1a;
+  border-bottom-color: #1a1a1a;
+}
+.pub-tab-panel { display: none; }
+.pub-tab-panel.is-active { display: block; }
 </style>
 
 
-<div class="pub-section">
-  <div class="pub-section-heading"><h2>Finance</h2></div>
-
-  <div class="pub-subheading">Publications</div>
-  <ul class="pub-list">
-  {% for post in site.publicationsfinance reversed %}
-    <li>{% include archive-single-paper.html %}</li>
-  {% endfor %}
-  </ul>
-
-  <div class="pub-subheading">Working papers</div>
-  <ul class="pub-list">
-  {% for post in site.workingpapersfinance %}
-    <li>{% include archive-single-paper.html %}</li>
-  {% endfor %}
-  </ul>
+<div class="pub-tabs">
+  <button class="pub-tab is-active" data-target="tab-finance">Finance</button>
+  <button class="pub-tab" data-target="tab-orfe">Operations Research and Financial Engineering</button>
+  <button class="pub-tab" data-target="tab-ml">Machine Learning</button>
 </div>
 
 
-<div class="pub-section">
-  <div class="pub-section-heading"><h2>Operations Research and Financial Engineering</h2></div>
+<div class="pub-tab-panel is-active" id="tab-finance">
+  <div class="pub-section">
+    <div class="pub-subheading">Publications</div>
+    <ul class="pub-list">
+    {% for post in site.publicationsfinance reversed %}
+      <li>{% include archive-single-paper.html %}</li>
+    {% endfor %}
+    </ul>
 
-  <div class="pub-subheading">Publications</div>
-  <ul class="pub-list">
-  {% for post in site.publications reversed %}
-    <li>{% include archive-single-paper.html %}</li>
-  {% endfor %}
-  </ul>
-
-  <div class="pub-subheading">Working papers</div>
-  <ul class="pub-list">
-  {% for post in site.workingpapers %}
-    <li>{% include archive-single-paper.html %}</li>
-  {% endfor %}
-  </ul>
+    <div class="pub-subheading">Working papers</div>
+    <ul class="pub-list">
+    {% for post in site.workingpapersfinance %}
+      <li>{% include archive-single-paper.html %}</li>
+    {% endfor %}
+    </ul>
+  </div>
 </div>
 
 
-<div class="pub-section">
-  <div class="pub-section-heading"><h2>Machine Learning</h2></div>
+<div class="pub-tab-panel" id="tab-orfe">
+  <div class="pub-section">
+    <div class="pub-subheading">Publications</div>
+    <ul class="pub-list">
+    {% for post in site.publications reversed %}
+      <li>{% include archive-single-paper.html %}</li>
+    {% endfor %}
+    </ul>
 
-  <ul class="pub-list">
-  {% for post in site.conferences reversed %}
-    <li>{% include archive-single-paper.html %}</li>
-  {% endfor %}
-  </ul>
+    <div class="pub-subheading">Working papers</div>
+    <ul class="pub-list">
+    {% for post in site.workingpapers %}
+      <li>{% include archive-single-paper.html %}</li>
+    {% endfor %}
+    </ul>
+  </div>
 </div>
+
+
+<div class="pub-tab-panel" id="tab-ml">
+  <div class="pub-section">
+    <ul class="pub-list">
+    {% for post in site.conferences reversed %}
+      <li>{% include archive-single-paper.html %}</li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var tabs = document.querySelectorAll('.pub-tab');
+  var panels = document.querySelectorAll('.pub-tab-panel');
+
+  function activate(target) {
+    var matched = false;
+    tabs.forEach(function (t) {
+      var on = t.dataset.target === target;
+      t.classList.toggle('is-active', on);
+      if (on) matched = true;
+    });
+    panels.forEach(function (p) {
+      p.classList.toggle('is-active', p.id === target);
+    });
+    return matched;
+  }
+
+  tabs.forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      activate(tab.dataset.target);
+      if (history.replaceState) {
+        history.replaceState(null, '', '#' + tab.dataset.target);
+      }
+    });
+  });
+
+  if (window.location.hash) {
+    activate(window.location.hash.substring(1));
+  }
+});
+</script>
