@@ -1,5 +1,7 @@
 ---
 title: "Álvaro Cartea, Fayçal Drissi, Fahad Saleh (2026). The Economics of Regulating Tokenized Securities."
+short_title: "The Economics of Regulating Tokenized Securities"
+coauthors: "Álvaro Cartea, Fahad Saleh"
 collection: workingpapersfinance
 permalink: /workingpapers/tokenized
 excerpt: #'This paper is about the number 3. The number 4 is left for future work.'

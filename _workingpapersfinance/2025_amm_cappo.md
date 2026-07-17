@@ -1,5 +1,7 @@
 ---
 title: "Agostino Capponi, Álvaro Cartea, Fayçal Drissi (2025). The Viability of Blockchain Markets under Discrete Clearing and Paid Priority."
+short_title: "The Viability of Blockchain Markets under Discrete Clearing and Paid Priority"
+coauthors: "Agostino Capponi, Álvaro Cartea"
 collection: workingpapersfinance
 permalink: /workingpapers/mempools
 excerpt: #'This paper is about the number 3. The number 4 is left for future work.'

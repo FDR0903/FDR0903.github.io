@@ -91,6 +91,7 @@ author_profile: false
 {% assign sel_finance = site.publicationsfinance | where_exp: "item", "item.selected" %}
 {% assign sel_conf = site.conferences | where_exp: "item", "item.selected" %}
 {% assign selected_all = sel_pubs | concat: sel_finance | concat: sel_conf | sort: "date" | reverse %}
+{% assign working_all = site.workingpapers | concat: site.workingpapersfinance | sort: "date" | reverse %}
 
 <div class="pub-section">
   <div class="pub-section-heading"><h2>Publications</h2></div>
@@ -101,6 +102,22 @@ author_profile: false
       <div class="pub-item">
         <span class="pub-title">{{ post.short_title }}{% if post.coauthors and post.coauthors != '' %} (with {{ post.coauthors }}){% endif %}.</span><br>
         <span class="pub-venue">{{ post.venue | remove: "." }} ({{ post.date | date: "%Y" }}).</span>{% if post.paperurl and post.paperurl != '' %} <a class="pub-link" href="{{ post.paperurl }}">link</a>{% endif %}{% if post.code and post.code != '' %} <a class="pub-link" href="{{ post.code }}">code</a>{% endif %}
+      </div>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
+
+
+<div class="pub-section">
+  <div class="pub-section-heading"><h2>Working papers</h2></div>
+
+  <ul class="pub-list">
+  {% for post in working_all %}
+    <li>
+      <div class="pub-item">
+        <span class="pub-title">{{ post.short_title }}{% if post.coauthors and post.coauthors != '' %} (with {{ post.coauthors }}){% endif %}.</span><br>
+        <span class="pub-venue">({{ post.date | date: "%Y" }}).</span>{% if post.paperurl and post.paperurl != '' %} <a class="pub-link" href="{{ post.paperurl }}">link</a>{% endif %}{% if post.code and post.code != '' %} <a class="pub-link" href="{{ post.code }}">code</a>{% endif %}
       </div>
     </li>
   {% endfor %}

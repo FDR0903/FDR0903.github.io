@@ -1,5 +1,7 @@
 ---
 title: "Alif Aqsha, Fayçal Drissi, Leandro Sánchez-Betancourt (2024). Strategic learning and trading in broker-mediated markets."
+short_title: "Strategic learning and trading in broker-mediated markets"
+coauthors: "Alif Aqsha, Leandro Sánchez-Betancourt"
 collection: workingpapers
 permalink: /workingpapers/broker
 excerpt: #'This paper is about the number 3. The number 4 is left for future work.'
