@@ -84,7 +84,20 @@ author_profile: false
 }
 .pub-link::before { content: "["; color: #888; }
 .pub-link::after  { content: "]"; color: #888; }
+.pub-intro {
+  font-family: var(--pub-serif);
+  font-size: 0.95em;
+  color: #444;
+  margin-top: 1.2em;
+  margin-bottom: 0;
+}
+.pub-intro a { text-decoration: underline; }
 </style>
+
+
+<p class="pub-intro">
+For a detailed breakdown of my work by field, with conference proceedings and the venues where each paper was presented, see the <a href="{{ base_path }}/publications/">research</a> page.
+</p>
 
 
 {% assign sel_pubs = site.publications | where_exp: "item", "item.selected" %}

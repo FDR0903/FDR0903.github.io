@@ -169,14 +169,14 @@ author_profile: false
     <div class="pub-subheading">Publications</div>
     <ul class="pub-list">
     {% for post in site.publicationsfinance reversed %}
-      <li>{% include archive-single-paper.html %}</li>
+      <li>{% include archive-single-paper.html style="stacked" %}</li>
     {% endfor %}
     </ul>
 
     <div class="pub-subheading">Working papers</div>
     <ul class="pub-list">
     {% for post in site.workingpapersfinance %}
-      <li>{% include archive-single-paper.html %}</li>
+      <li>{% include archive-single-paper.html style="stacked" %}</li>
     {% endfor %}
     </ul>
   </div>
@@ -206,7 +206,7 @@ author_profile: false
   <div class="pub-section">
     <ul class="pub-list">
     {% for post in site.conferences reversed %}
-      <li>{% include archive-single-paper.html %}</li>
+      <li>{% include archive-single-paper.html style="stacked" %}</li>
     {% endfor %}
     </ul>
   </div>

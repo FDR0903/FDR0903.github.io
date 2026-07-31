@@ -209,8 +209,8 @@ redirect_from:
     <h1 class="home-name">Fayçal Drissi</h1>
     <div class="home-affiliation">
       <span class="home-role">Postdoctoral Researcher</span><br>
-      Oxford-Man Institute of Quantitative Finance<br>
-      University of Oxford
+      Department of Statistics - University of Oxford<br>
+      Oxford-Man Institute of Quantitative Finance
     </div>
     <div class="home-icons">
       <a href="mailto:faycal.drissi@gmail.com"><i class="fas fa-envelope"></i>Email</a>
@@ -231,17 +231,19 @@ Finance digitization and AI are reshaping the financial landscape and challengin
 - **Statistics and Machine Learning in Finance**
 
 
-## Selected papers
+## Selected working papers
 
-A complete list is available on the <a href="{{ base_path }}/publications/">publications</a> page.
+A complete list is available on the <a href="{{ base_path }}/selected-publications/">publications</a> page.
 
 <ol class="home-selected">
   <li>
-    Álvaro Cartea, Fayçal Drissi, Fahad Saleh (2026). The Economics of Regulating Tokenized Securities. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6942338">link</a>
+    Agostino Capponi, Álvaro Cartea, Fayçal Drissi (2025). The Viability of Blockchain Markets under Discrete Clearing and Paid Priority. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5290232">link</a>
     <div class="home-selected-conf">
       <span class="home-conf-label">Presented at / Accepted at:</span>
       <ul>
-        <li>ToDeFi - Torino Decentralized Finance Conference 2026 (Keynote speech)</li>
+        <li><a href="https://www.nber.org/conferences/si-2026-financial-market-structure">NBER Summer Institute 2026, Financial Market Structure</a>, Cambridge, MA</li>
+        <li>6th Annual CBER Conference, New York, 2026</li>
+        <li>41st Meeting of the European Economic Association and the 77th European Meeting of the Econometric Society (EEA-ESEM 2026)</li>
       </ul>
     </div>
   </li>
@@ -256,15 +258,25 @@ A complete list is available on the <a href="{{ base_path }}/publications/">publ
     </div>
   </li>
   <li>
-    Agostino Capponi, Álvaro Cartea, Fayçal Drissi (2025). The Viability of Blockchain Markets under Discrete Clearing and Paid Priority. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5290232">link</a>
+    Álvaro Cartea, Fayçal Drissi, Fahad Saleh (2026). The Economics of Regulating Tokenized Securities. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6942338">link</a>
     <div class="home-selected-conf">
       <span class="home-conf-label">Presented at / Accepted at:</span>
       <ul>
-        <li><a href="https://www.nber.org/conferences/si-2026-financial-market-structure">NBER Summer Institute 2026, Financial Market Structure</a>, Cambridge, MA</li>
-        <li>6th Annual CBER Conference, New York, 2026</li>
-        <li>41st Meeting of the European Economic Association and the 77th European Meeting of the Econometric Society (EEA-ESEM 2026)</li>
+        <li>ToDeFi - Torino Decentralized Finance Conference 2026 (Keynote speech)</li>
       </ul>
     </div>
+  </li>
+</ol>
+
+
+## Selected publications
+
+<ol class="home-selected">
+  <li>
+    Álvaro Cartea, Fayçal Drissi, Marcello Monga (2025). Decentralised finance and automated market making: Execution and speculation. <span class="home-paper-venue">Journal of Economic Dynamics and Control</span>. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4144743">link</a>
+  </li>
+  <li>
+    Álvaro Cartea, Fayçal Drissi, Leandro Sánchez-Betancourt, David Siska, Lukasz Szpruch (2026). Strategic bonding curves in automated market makers. <span class="home-paper-venue">Mathematics of Operations Research</span>. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4459177">link</a>
   </li>
 </ol>
 

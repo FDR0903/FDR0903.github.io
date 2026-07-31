@@ -1,7 +1,8 @@
 # main links links
 main:
-  - title: "Research"
-    url: /publications/
+# Hidden from the top menu; reachable from the Publications page.
+#  - title: "Research"
+#    url: /publications/
 
   - title: "Publications"
     url: /selected-publications/
