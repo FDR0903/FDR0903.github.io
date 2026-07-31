@@ -273,10 +273,12 @@ A complete list is available on the <a href="{{ base_path }}/selected-publicatio
 
 <ol class="home-selected">
   <li>
-    Álvaro Cartea, Fayçal Drissi, Marcello Monga (2025). Decentralised finance and automated market making: Execution and speculation. <span class="home-paper-venue">Journal of Economic Dynamics and Control</span>. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4144743">link</a>
+    Álvaro Cartea, Fayçal Drissi, Marcello Monga (2025). Decentralised finance and automated market making: Execution and speculation.<br>
+    <span class="home-paper-venue">Journal of Economic Dynamics and Control</span>. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4144743">link</a>
   </li>
   <li>
-    Álvaro Cartea, Fayçal Drissi, Leandro Sánchez-Betancourt, David Siska, Lukasz Szpruch (2026). Strategic bonding curves in automated market makers. <span class="home-paper-venue">Mathematics of Operations Research</span>. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4459177">link</a>
+    Álvaro Cartea, Fayçal Drissi, Leandro Sánchez-Betancourt, David Siska, Lukasz Szpruch (2026). Strategic bonding curves in automated market makers.<br>
+    <span class="home-paper-venue">Mathematics of Operations Research</span>. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4459177">link</a>
   </li>
 </ol>
 

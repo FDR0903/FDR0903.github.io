@@ -96,7 +96,7 @@ author_profile: false
 
 
 <p class="pub-intro">
-For a detailed breakdown of my work by field, with conference proceedings and the venues where each paper was presented, see the <a href="{{ base_path }}/publications/">research</a> page.
+For a detailed breakdown of my work by field (finance and economics, OR and FE, Statistics), see <a href="{{ base_path }}/publications/">this page</a>.
 </p>
 
 

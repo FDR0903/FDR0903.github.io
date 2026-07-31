@@ -160,7 +160,7 @@ author_profile: false
 <div class="pub-tabs">
   <button class="pub-tab is-active" data-target="tab-finance">Finance</button>
   <button class="pub-tab" data-target="tab-orfe">Operations Research and Financial Engineering</button>
-  <button class="pub-tab" data-target="tab-ml">Machine Learning</button>
+  <button class="pub-tab" data-target="tab-ml">Statistics and Machine Learning</button>
 </div>
 
 
