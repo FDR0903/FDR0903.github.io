@@ -115,7 +115,7 @@ For a detailed breakdown of my work by field (finance and economics, OR and FE, 
     <li>
       <div class="pub-item">
         <span class="pub-title">{{ post.short_title }}{% if post.coauthors and post.coauthors != '' %} (with {{ post.coauthors }}){% endif %}.</span><br>
-        <span class="pub-venue">{{ post.venue | remove: "." }} ({{ post.date | date: "%Y" }}).</span>{% if post.paperurl and post.paperurl != '' %} <a class="pub-link" href="{{ post.paperurl }}">link</a>{% endif %}{% if post.code and post.code != '' %} <a class="pub-link" href="{{ post.code }}">code</a>{% endif %}
+        <span class="pub-venue">revise and resubmit at {{ post.venue | remove: "." }} ({{ post.date | date: "%Y" }}).</span>{% if post.paperurl and post.paperurl != '' %} <a class="pub-link" href="{{ post.paperurl }}">link</a>{% endif %}{% if post.code and post.code != '' %} <a class="pub-link" href="{{ post.code }}">code</a>{% endif %}
       </div>
     </li>
   {% endfor %}
