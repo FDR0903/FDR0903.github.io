@@ -244,7 +244,7 @@ A complete list is available on the <a href="{{ base_path }}/selected-publicatio
 <ol class="home-selected">
   <li>
     Fayçal Drissi, Sebastian Jaimungal, Xuchen Wu (2025). Equilibrium Liquidity and Risk Offsetting in Decentralised Markets.<br>
-    <span class="home-rr-label">revise and resubmit at</span> <span class="home-paper-venue">Operations Research</span>. <a href="https://fdr0903.github.io/files/CEX_DEX.pdf">link</a>
+    <span class="home-rr-label">Revise and Resubmit at</span> <span class="home-paper-venue">Operations Research</span>. <a href="https://fdr0903.github.io/files/CEX_DEX.pdf">link</a>
   </li>
   <li>
     Agostino Capponi, Álvaro Cartea, Fayçal Drissi (2025). The Viability of Blockchain Markets under Discrete Clearing and Paid Priority. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5290232">link</a>
