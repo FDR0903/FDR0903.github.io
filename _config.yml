@@ -180,6 +180,9 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+  randr:
+    output: true
+    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
@@ -227,6 +230,15 @@ defaults:
   - scope:
       path: ""
       type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _randr
+  - scope:
+      path: ""
+      type: randr
     values:
       layout: single
       author_profile: true

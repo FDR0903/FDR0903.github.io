@@ -185,6 +185,13 @@ author_profile: false
 
 <div class="pub-tab-panel" id="tab-orfe">
   <div class="pub-section">
+    <div class="pub-subheading">Revise and Resubmit</div>
+    <ul class="pub-list">
+    {% for post in site.randr reversed %}
+      <li>{% include archive-single-paper.html %}</li>
+    {% endfor %}
+    </ul>
+
     <div class="pub-subheading">Publications</div>
     <ul class="pub-list">
     {% for post in site.publications reversed %}

@@ -266,6 +266,10 @@ A complete list is available on the <a href="{{ base_path }}/selected-publicatio
       </ul>
     </div>
   </li>
+  <li>
+    Fayçal Drissi, Sebastian Jaimungal, Xuchen Wu (2025). Equilibrium Liquidity and Risk Offsetting in Decentralised Markets.<br>
+    <span class="home-paper-venue">Operations Research</span> (revise and resubmit). <a href="https://fdr0903.github.io/files/CEX_DEX.pdf">link</a>
+  </li>
 </ol>
 
 
