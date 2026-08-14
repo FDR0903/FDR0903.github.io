@@ -1,0 +1,295 @@
+\documentclass[11pt, sans]{moderncv}
+% possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+\usepackage{longtable, graphicx}
+
+\usepackage{footmisc}
+
+\moderncvstyle[shortrules, left]{banking}
+% style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+
+\moderncvcolor{black}
+% color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\moderncvicons{awesome}
+% icon options 'awesome', 'marvosym' and 'letters'
+
+%\renewcommand{\familydefault}{\sfdefault}
+% to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+
+%\nopagenumbers{}
+% uncomment to suppress automatic page numbering for CVs longer than one page
+
+\renewcommand{\labelitemi}{\color{gray}{$\circ$}}
+
+% GitHub Logo
+\newcommand*{\github}[1]{\def\@github{#1}}
+
+% character encoding
+\usepackage[utf8]{inputenc}
+% if you are not using xelatex ou lualatex, replace by the encoding you are using
+
+%\usepackage{CJKutf8}
+% if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[top=0.5in, bottom=0.5in, left=0.75in, right=0.75in]{geometry}
+\setlength{\hintscolumnwidth}{3cm}
+% if you want to change the width of the column with the dates
+
+% \setlength{\makecvtitlenamewidth}{10cm}
+% for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+\name{Patrick}{Chang}
+\title{CV}
+\address{Oxford-Man Institute of Quantitative Finance, Oxford}{United Kingdom}{}
+\email{patrick.chang@eng.ox.ac.uk}
+\social[github]{CHNPAT005}
+\social[linkedin]{patrick-chang-976120170}
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+\hypersetup{pdftitle={Patrick Chang -- CV}}
+
+%\begin{CJK*}{UTF8}{gbsn}
+% to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\vspace*{-30pt}
+
+%Description text
+
+\section{Education  }
+
+\begin{longtable}{rp{13.34cm}}
+	2019 -- $\,$ ... $\,$ \hspace{10pt}&\textbf{PhD in Statistics} (3.95/4.0)\\
+	&\textit{University of Toronto}\\
+	&{\small \textbf{Thesis}: Risk-Sensitive Reinforcement Learning With Dynamic Risk Measures (Advisor: Prof. Sebastian Jaimungal).}\vspace{5pt}\\
+    2017 -- 2019 \hspace{10pt}&\textbf{M.Sc. in Mathematics, concentration in Statistics} (4.3/4.3) \\
+    &\textit{Université du Québec à Montréal}\\
+    &{\small \textbf{Thesis}: Stochastic Portfolio Optimization under Coherent Risk Measures (Advisors: Prof. François Watier, Prof. René Ferland).}\vspace{5pt}\\
+    2014 -- 2017 \hspace{10pt}& \textbf{B.Sc. with Honours, Mathematics, concentration in Statistics} (4.18/4.3)\\
+    &\textit{Université du Québec à Montréal}
+\end{longtable}
+
+
+\section{Scholarships \& Awards  }
+
+\begin{longtable}{rp{13.34cm}}
+2022 \hspace{10pt}& \textbf{Oxford-Man Institute} Visitors Programme (9 000£)\vspace{2pt}\\
+2019 -- 2022 \hspace{10pt}& \textbf{NSERC} \footnotemark[1] Alexander Graham Bell Doctoral's Award (105 000\$)\vspace{2pt}\\
+2019 -- 2023 \hspace{10pt}& \textbf{FRQNT} \footnotemark[2] Doctoral Scholarship (84 000\$)\vspace{2pt}\\
+2017 -- 2018 \hspace{10pt}& \textbf{NSERC} Alexander Graham Bell Master's Award (17 500\$)\vspace{2pt}\\
+2017 -- 2019 \hspace{10pt}& \textbf{FRQNT} Master's Award (30 000\$)\vspace{2pt}\\
+2016 -- 2017 \hspace{10pt}& \textbf{NSERC} Undergraduate Research Awards + \textbf{FRQNT} Supplements (2 $\times$ 7 125\$)\vspace{2pt}\\
+2015 -- 2016 \hspace{10pt}& \textbf{Dean's Honour List} for Winter 2015, Fall 2015, Winter 2016 and Fall 2016 terms\vspace{2pt}\\
+2014 \hspace{10pt}& \textbf{UQAM Foundation} Admission Scholarship of the Faculty of Sciences (2 000\$)\\
+\end{longtable}
+\footnotetext[1]{ Natural Sciences and Engineering Research Council of Canada}
+\footnotetext[2]{ Fonds de recherche du Québec – Nature et technologies}
+
+
+\section{Research Interests  }
+
+Reinforcement Learning, Risk Sensitivity, Stochastic Modeling, Computer Science, Risk Measures, Optimization, Applied Statistics, Statistical Learning.
+
+
+\section{Publications  }
+
+\subsection{Papers }
+
+\begin{itemize}
+	\item \textbf{Coache, A.}, Jaimungal, S. \& Cartea, Á. (2022) Learning Time-Consistent Optimal Policies under Elicitable Dynamic Spectral Risk using Deep Reinforcement Learning. \textit{arXiv}.
+	\item \textbf{Coache, A.} \& Jaimungal, S. (2021) Reinforcement Learning with Dynamic Convex Risk Measures. \textit{arXiv}.
+\end{itemize}
+
+\vspace{5pt}
+\subsection{Posters }
+
+\begin{itemize}
+    \item Binette, O. \& \textbf{Coache, A.} (2018) The Significance of the Adjusted R Squared. \textit{(Bio)Statistics Research Day}, Montréal.
+    \item \textbf{Coache, A.} \& Larose, F. (2018) "Do schools kill creativity?" Well, they help analyze popularity! \textit{Annual Meeting of the SSC}, Montréal.
+    \item Ferland, R., Froda, S. \& \textbf{Coache, A.} (2017) Comparison of surveillance flu data across regions. \textit{Annual Meeting of the SSC}, Winnipeg.
+\end{itemize}
+
+\vspace{5pt}
+\subsection{Projects }
+
+\begin{itemize}
+       \item Bilodeau, B. \& \textbf{Coache, A.} (2021) Methods for Adding Explicit Uncertainty to Deep Q-Learning. \textit{Research Topics in Statistical Machine Learning}, UofT.
+\end{itemize}
+
+
+\section{Talks  }
+
+\subsection{Invited }
+
+\begin{itemize}
+	\item \normalfont\textit{World Congress of the Bachelier Finance Society.} (2022) Reinforcement Learning for Dynamic Risk Measures. Online.
+	\item \normalfont\textit{Oxford-Man Institute Workshop.} (2022) Optimising a Dynamic Conditional Value-at-Risk over Policies using Conditional Elicitability. Oxford, UK.
+	\item \normalfont\textit{SIAM Conference on Financial Mathematics and Engineering.} (2021) Reinforcement Learning with Dynamic Convex Risk Measures. Online.
+\end{itemize}
+
+
+\vspace{5pt}
+\subsection{Contributed }
+
+\begin{itemize}
+	\item \normalfont\textit{Research Topics in Statistical Machine Learning.} (2021) Distilling Policy Distillation. Toronto.
+	\item \normalfont\textit{ACTSCI / MAFI Research meeting.} (2021) Risk-Sensitive Optimization in Reinforcement Learning. Toronto.
+    \item \normalfont\textit{Annual Meeting of the SSC.} (2019) Stochastic Algorithms for Solving a Multiperiod Quantile-Based Portfolio Optimization Problem. Calgary.
+    \item \normalfont\textit{Probability and Statistics Student Seminar at UQAM.} (2017) Non-Parametric Estimation of the Quantile Function. Montréal.
+\end{itemize}
+
+
+\section{Work Experience  }
+
+\begin{longtable}{rp{13.34cm}}
+	2022 \hspace{10pt}& \textbf{Academic Visitor at University of Oxford} \\
+	&\textit{Reinforcement learning and estimation of conditionally elicitable risk measures}\\
+	\vspace{-5pt}
+	&{\small Invitation by Prof. Álvaro Cartea from the Oxford-Man Institute during a 6 month period. Joint work with Prof. Sebastian Jaimungal.}\\
+	&\\
+
+	2020 -- $\,$ ... $\,$ \hspace{10pt}& \textbf{Teaching Assistant at University of Toronto} \\
+	&\textit{Data Science for Risk Modeling (STA2536), Data Analytics in Practice (STA2546), Stochastic Processes (STA447/STA2006), Dependence Modelling (STA4528), Statistical Consultation, Communication and Collaboration (STA490)}\\
+	\vspace{-5pt}
+	&{\small In charge of project meetings for groups of 4-5 students, individual mentoring sessions, grading assignments and weekly exercises tutorials for classrooms of 50 students.}\\
+	\vspace{-10pt}
+	&{\small \color{gray}{$\circ$}} {\small 2023: STA447/STA2006 \& STA2546}\\
+	\vspace{-10pt}
+	&{\small \color{gray}{$\circ$}} {\small 2022: STA2536}\\
+	\vspace{-10pt}
+	&{\small \color{gray}{$\circ$}} {\small 2021: STA2536 \& STA4528}\\
+	&{\small \color{gray}{$\circ$}} {\small 2020: STA490}\\
+	&\\
+	
+	2020 \hspace{10pt}& \textbf{Research Assistant with Prof. Sebastian Jaimungal} \\
+	&\textit{Hidden trends in order-flow trading data and hedging with dynamic barriers}\\
+	&{\small Collaboration between Oanda and Fields-CQAM.}\\
+	% &{\small Collaboration between Oanda and Fields-CQAM. Investigated hidden trends in tick count and order-flow trading data. Explored hedging strategies with dynamic barriers using hidden Markov models.}\\
+	&\\
+	
+	2016 -- 2019 \hspace{10pt}& \textbf{Teaching Assistant at Université du Québec à Montréal} \\
+	&\textit{Statistical Software Laboratory (STT2100), Regression (STT2120), ANOVA for Biology (MAT1285), Statistical Methods for the School of Management (MAT2080)}\\
+	\vspace{-5pt}
+	&{\small In charge of weekly exercises sessions for classrooms of 10 to 40 students.}\\
+	\vspace{-10pt}
+	&{\small \color{gray}{$\circ$}} {\small 2019: STT2120 \& MAT1285}\\
+	\vspace{-10pt}
+	&{\small \color{gray}{$\circ$}} {\small 2018: STT2100, STT2120 \& MAT2080 (3x)}\\
+	\vspace{-10pt}
+	&{\small \color{gray}{$\circ$}} {\small 2017: STT2100 \& MAT2080}\\
+	&{\small \color{gray}{$\circ$}} {\small 2016: MAT2080}\\
+	&\\
+	
+	Summer 2017 \hspace{10pt}& \textbf{Research Internship with Prof. François Watier} \\
+	&\textit{Stochastic optimization in multi-period problems with convex risk measures}\\
+	% &{\small Studied stochastic optimization methods. Investigated the single-period and multi-period portfolio optimization problems with convex risk measures.}\\
+	&\\
+	
+	April 2017 \hspace{10pt}& \textbf{Research Internship with Prof. Sorana Froda and Prof. René Ferland} \\
+	&\textit{Estimation of parameters from surveillance data on past epidemics}\\
+	% &{\small Familiarized myself to epidemiology. Programmed R and SAS scripts for data analysis and visualization. Led to a contribution in a poster.}\\
+	&\\
+	\newpage
+	2017 -- 2019 \hspace{10pt}& \textbf{Mathematics Tutor} \\
+	&\textit{Weekly individual tutoring for Quantitative Analysis in Psychology (PSY4031)}\\
+	% &{\small Preparation of lessons and weekly exercises sessions for individual tutoring.}\\
+	&\\
+	
+	Summer 2016 \hspace{10pt}& \textbf{Research Internship with Prof. François Watier and Prof. René Ferland} \\
+	&\textit{Monte Carlo evaluation of sensitivities for risk measures}\\
+	% &{\small Programmed Harrell-Davis and kernel density estimation algorithms. Developed confidence intervals for risk measures and sensitivities.}\\
+\end{longtable}
+
+
+\section{Leadership  }
+
+\begin{itemize}
+	\item Volunteered for the organization of the Machine Learning and Quantitative Finance Workshop, and Conference on Natural Language Processing for Economic and Financial Modelling (June 2022).
+	\vspace{5pt}
+
+	\item Part of the program committee for the ACM International Conference on AI in Finance, responsible for reviewing regular papers during the double-blind peer-reviewed process. (November 2021 and 2022)
+	\vspace{5pt}
+	
+	\item Prepared and ran a Matlab bootcamp (January 2021 and 2022) and Python bootcamp (September 2022) for students of the Masters of Financial Insurance program at UofT.
+	\vspace{5pt}
+	
+	\item Co-organized the Canadian Statistics Student Conference 2020 (May 2020) and 2021 (June 2021), both held online due to the COVID-19.
+	% Part of the translation team, responsible for translating all content that was published in the program booklet, as well as all communications with students.
+	\vspace{5pt}
+	
+	\item Contributed on a professional development guide aimed at UQAM's Math \& Stats majors (April 2019).
+	\vspace{5pt}
+	
+	\item Co-organized the first Statistics Student Summit in Montréal (March 2019).
+	\vspace{5pt}
+	
+	\item Volunteered for the organization of the R in Montréal seminar (July 2018).
+	\vspace{5pt}
+	
+	\item Promoted the UQAM's Probability and Statistics Student Seminar (2016 -- 2017).
+	\vspace{5pt}
+	
+	\item Co-creator and main administrator of the Facebook page UQAM Statistics (2016 -- 2019).
+	\vspace{5pt}
+	
+	\item Co-organized orientation activities for new undergraduate students in Statistics (2016 -- 2019).
+\end{itemize}
+
+
+\section{Skills  }
+
+\begin{description}
+	\item[Programming: ] Strong knowledge of R, Python, Matlab and TeX/LaTeX. Knowledge of C/C++, SAS, Java and SQL.
+	\vspace{5pt}
+	
+	\item[Multitasking: ] Experience carrying out several projects in parallel from start to finish.
+	\vspace{5pt}
+	
+	\item[Versatility: ] Worked on multiple interdisciplinary projects related to statistics, mathematics, finance and epidemiology. Particular ease in creative work and fast learning.
+	\vspace{5pt}
+	
+	\item[Organization: ] Experience organizing and publicizing various events and seminars.
+	\vspace{5pt}
+\end{description}
+ 
+ 
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.

@@ -1,0 +1,136 @@
+%!TEX encoding = UTF-8 Unicode
+% LaTeX Template for CV/Resume
+%
+% This template has been downloaded and modified from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Original Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Modified (March 2019) by:
+% Jessica A. Rick <jrick@uwyo.edu>
+% http://www.jessicarick.com
+% 
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, letterpaper]{academic-cv}
+\usepackage{setspace, longtable}
+% Configure page margins with geometry
+\geometry{left=0.75in, top=0.75in, right=0.75in, bottom=0.75in, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+\newlength\MAX  \setlength\MAX{5mm}
+\newcommand*\Chart[1]{#1~\rlap{\textcolor{black!20}{\rule{\MAX}{2ex}}}\rule{#1\MAX}{2ex}}
+
+\usepackage[T1]{fontenc}% http://ctan.org/pkg/fontenc
+\usepackage{needspace}% keeps a section heading with the rows that follow it
+
+
+\usepackage[]{xcolor}% http://ctan.org/pkg/xcolor
+
+
+\definecolor{darkblue}{RGB}{0,0,139}
+
+
+
+
+\newcommand{\DrawPercentageBar}[1]{%
+  \begin{tikzpicture}
+    \fill[color=black]   (0.0 , 0.0) rectangle (#1*3ex , 1.5ex );
+    \fill[color=gray] (#1*3ex  , 0.0) rectangle (3.0ex, 1.5ex);
+  \end{tikzpicture}%
+}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+\name{\textsc{Fayçal Drissi}}{}
+\position{Post-Doctoral Researcher{\enskip\cdotp\enskip}University of Oxford{\enskip\cdotp\enskip}Financial Technology}
+\address{Oxford-Man Institute, Eagle House, Oxford, United Kingdom}
+
+
+%\mobile{+1 000-000-0000}
+\homepage{www.faycaldrissi.com/}
+\email{faycal.drissi@gmail.com}
+\github{FDR0903}
+%\linkedin{fayçal-drissi-95b16241}
+% \gitlab{my-gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+%  \twitter{@twitterhandle}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+\usepackage{xfakebold}
+\newcommand{\fbseriess}{\unskip\setBold\aftergroup\unsetBold\aftergroup\ignorespaces}
+\makeatletter
+\newcommand{\setBoldness}[1]{\def\fake@bold{#1}}
+\makeatother
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% \makecvfooter
+%   {March 2019}
+%   {Name ~~~·~~~ Curriculum Vitae}
+%   {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%   Comment out any sections that are not appropriate for your CV
+%-------------------------------------------------------------------------------
+
+%\vspace{5mm}
+\vspace{3mm}
+\input{cv/education.tex}
+\vspace{3mm}
+\input{cv/publications2.tex}
+%\vspace{2mm}
+%\clearpage
+\input{cv/teaching.tex}
+\vspace{0mm}
+\input{cv/honors.tex}
+\vspace{3mm}
+\Needspace*{14\baselineskip}
+\input{cv/activities}
+%\
+\vspace{-2mm}
+\input{cv/professional.tex}
+\vspace{-4mm}
+\input{cv/Conferences}
+
+%\vspace{8mm}
+%\input{cv/supervision.tex}
+%\vspace{-2mm}
+%\input{cv/presentation.tex}
+%\input{cv/skills.tex}
+% \input{cv/mentoring.tex}
+% \input{cv/research.tex}
+% \input{cv/extracurricular.tex}
+
+
+
+
+%-------------------------------------------------------------------------------
+\end{document}

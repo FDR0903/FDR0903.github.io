@@ -1,0 +1,115 @@
+%-------------------------------------------------------------------------------
+%	RESEARCH  — flat list, mirroring the website Publications tab:
+%	Revise and Resubmit / Publications / Working papers / Conference and other
+%	Citation format:  Title (with <co-authors>) (year). Venue.  link.
+%-------------------------------------------------------------------------------
+
+% --- Local helpers ------------------------------------------------------------
+\newcounter{papercount}
+\newlength{\papnumw}\setlength{\papnumw}{0.6cm}
+\newlength{\presatw}
+
+% Nicely styled (clickable) link marker
+\providecommand{\reflink}{{\color{teal}\underline{link}}}
+
+% A numbered paper. #1 may contain a \\ separating the title line from the venue.
+\providecommand{\cvpubn}[1]{%
+  \par\refstepcounter{papercount}%
+  {\parskip=0pt \leftskip=\papnumw \parindent=-\papnumw
+   \fontsize{10pt}{1.12em}\bodyfont\color{text}%
+   \makebox[\papnumw][l]{\color{gray}\bfseries\small\thepapercount.}#1\par}%
+  \vspace{0.8mm}%
+}
+
+% "Presented at:" aligned under the paper text; first venue inline, rest beneath it
+\providecommand{\presentedat}[1]{%
+  \par\vspace{-0.8mm}%
+  {\parskip=0pt \leftskip=\papnumw \parindent=0pt
+   \fontsize{8.8pt}{10.2pt}\bodyfont\itshape\color{gray}%
+   \settowidth{\presatw}{Presented at: }%
+   \hangindent=\presatw \hangafter=1
+   \noindent Presented at: #1\par}%
+  \vspace{1mm}%
+}
+% ------------------------------------------------------------------------------
+
+
+%###############################################################################
+%#                                  RESEARCH                                   #
+%###############################################################################
+\vspace{-4mm}
+\begin{center}
+\cvsection{RESEARCH}
+\end{center}
+
+\cvsubsection{Revise and Resubmit}
+\setcounter{papercount}{0}
+\vspace{0.8mm}
+
+\cvpubn{Equilibrium Liquidity and Risk Offsetting in Decentralised Markets (with S. Jaimungal and X. Wu) (2025).\\
+{\color{darkblue}\emph{\underline{Operations Research}.}}\href{https://www.faycaldrissi.com/files/CEX_DEX.pdf}{ \reflink}.}
+
+\vspace{1.5mm}
+\cvsubsection{Publications}
+\setcounter{papercount}{0}
+\vspace{0.8mm}
+
+\cvpubn{Strategic Bonding Curves in Automated Market Makers (with {\'A}. Cartea, L. Sánchez-Betancourt, D. Siska, and L. Szpruch) (2026).\\
+{\color{darkblue}\emph{\underline{Mathematics of Operations Research}.}}\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4459177}{ \reflink}.}
+
+\cvpubn{Multi-Task Gaussian Process Bandits for Regime-Switching in Optimal Execution (with {\'A}. Cartea and G. Palmari) (2026).\\
+{\color{darkblue}\emph{\underline{SIAM Journal on Financial Mathematics}.}}\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4484004}{ \reflink}.}
+
+\cvpubn{Decentralised Finance and Automated Market Making: Execution and Speculation (with {\'A}. Cartea and M. Monga) (2025).\\
+{\color{darkblue}\emph{\underline{Journal of Economic Dynamics and Control}, Volume 177, 105134.}}\href{https://www.sciencedirect.com/science/article/pii/S0165188925001009}{ \reflink}.}
+\presentedat{WBS Gillmore Centre Annual Conference on DeFi \& Digital Currencies, Warwick Business School, 2023.}
+
+\cvpubn{Decentralised Finance and Automated Market Making: Predictable Loss and Optimal Liquidity Provision (with {\'A}. Cartea and M. Monga) (2024).\\
+{\color{darkblue}\emph{\underline{SIAM Journal on Financial Mathematics}, 15(3), 931-959}}.\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4273989}{ \reflink}.}
+
+\cvpubn{Multi-asset Optimal Execution and Statistical Arbitrage Strategies under Ornstein-Uhlenbeck Dynamics (with P. Bergault and O. Guéant) (2022).\\
+{\color{darkblue}\emph{\underline{SIAM Journal on Financial Mathematics}, 13 (1), 353-390.}}\href{https://epubs.siam.org/doi/abs/10.1137/21M1407756}{ \reflink}.}
+
+\vspace{1.5mm}
+\penalty-1500
+\cvsubsection{Working papers}%
+\par\nobreak\kern0.8mm\nobreak
+\setcounter{papercount}{0}%
+
+\cvpubn{The Viability of Blockchain Markets under Discrete Clearing and Paid Priority (with A. Capponi and {\'A}. Cartea) (2025).\href{https://www.faycaldrissi.com/files/mempools.pdf}{ \reflink}.}
+\presentedat{NBER Summer Institute 2026 (Cambridge, MA)\\
+6th Annual CBER Conference (New York, 2026)\\
+EEA-ESEM (Econometric Society), Dublin, 2026.}
+
+\cvpubn{Liquid Staking and the Limits of Policy (with Z. Feinstein and B. Williams) (2026).\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6173222}{ \reflink}.}
+\presentedat{CBER Crafting the Cryptoeconomy Conference (Columbia University, 2025)\\
+Designing DeFi Conference (Columbia Business School, 2026).}
+
+\cvpubn{The Economics of Regulating Tokenized Securities (with {\'A}. Cartea and F. Saleh) (2026).\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6942338}{ \reflink}.}
+\presentedat{ToDeFi -- Torino Decentralized Finance Conference, 2026 (keynote).}
+
+\cvpubn{Strategic Learning and Trading in Broker-Mediated Markets (with A. Aqsha and L. Sánchez-Betancourt) (2024).\href{https://arxiv.org/pdf/2412.20847}{ \reflink}.}
+
+\cvpubn{Adaptive Lookback for Bayesian Decision Making (with G. Duran-Martin, G. Palmari, and {\'A}. Cartea) (2025).}
+
+\cvpubn{Agentic AI in Proof-of-Stake Blockchains (with {\'A}. Cartea, M. Egri, and P. Chang).}
+
+\cvpubn{Bitcoin As A Hedge Asset (with K. John and F. Saleh).}
+
+\vspace{1.5mm}
+\penalty-1500
+\cvsubsection{Conference and other publications}%
+\par\nobreak\kern0.8mm\nobreak
+\setcounter{papercount}{0}%
+
+\cvpubn{DARE: The Deep Adaptive Regulator for Control of Uncertain Continuous-Time Systems (with H. Waldon, Y. Limmer, U. Berdica, J.N. Foerster, and {\'A}. Cartea) (2024).\\
+{\color{darkblue}\emph{\underline{ICML 2024 -- Foundations of Reinforcement Learning and Control}.}}\href{https://openreview.net/pdf?id=vTtldsicU9}{ \reflink}.}
+
+\cvpubn{Execution and Statistical Arbitrage with Signals in Multiple Automated Market Makers (with {\'A}. Cartea and M. Monga) (2023).\\
+{\color{darkblue}\emph{\underline{IEEE 43rd International Conference on Distributed Computing Systems}, 37-42}.}\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4388104}{ \reflink}.}
+
+\cvpubn{Predictable Losses of Liquidity Provision in Constant Function Markets and Concentrated Liquidity Markets (with {\'A}. Cartea and M. Monga) (2023).\\
+{\color{darkblue}\emph{\underline{Applied Mathematical Finance}, 30(2), 69-93.}}\href{https://www.tandfonline.com/doi/full/10.1080/1350486X.2023.2277957}{ \reflink}.}
+
+\cvpubn{Solvability of Differential Riccati Equations and Applications to Algorithmic Trading with Signals (2022).\\
+{\color{darkblue}\emph{\underline{Applied Mathematical Finance}, 29 (6), 457--493.}}\href{https://www.tandfonline.com/doi/abs/10.1080/1350486X.2023.2241130}{ \reflink}.}

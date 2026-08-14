@@ -6,3 +6,15 @@ _site/
 vendor/
 node_modules/
 .DS_Store
+
+# LaTeX build artefacts (CV/)
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+missfont.log
+
+# Local Claude settings
+**/.claude/settings.local.json
