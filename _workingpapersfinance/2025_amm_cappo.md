@@ -13,4 +13,5 @@ presented:
   - "NBER Summer Institute 2026, Financial Market Structure, Cambridge, MA"
   - "6th Annual CBER Conference, New York, 2026"
   - "41st Meeting of the European Economic Association and the 77th European Meeting of the Econometric Society (EEA-ESEM 2026)"
+  - "The Microstructure Exchange seminar series"
 ---
