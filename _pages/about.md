@@ -243,23 +243,25 @@ A complete list is available on the <a href="{{ base_path }}/selected-publicatio
 
 <ol class="home-selected">
   <li>
-    Fayçal Drissi, Sebastian Jaimungal, Xuchen Wu (2025). Equilibrium Liquidity and Risk Offsetting in Decentralised Markets.<br>
-    <span class="home-rr-label">Revise and Resubmit at</span> <span class="home-paper-venue">Operations Research</span>. <a href="https://fdr0903.github.io/files/CEX_DEX.pdf">link</a>
+    Equilibrium Liquidity and Risk Offsetting in Decentralised Markets (with Sebastian Jaimungal, Xuchen Wu).<br>
+    <span class="home-rr-label">Revise and Resubmit at</span> <span class="home-paper-venue">Operations Research (2025).</span> <a href="https://fdr0903.github.io/files/CEX_DEX.pdf">link</a>
   </li>
   <li>
-    Agostino Capponi, Álvaro Cartea, Fayçal Drissi (2025). The Viability of Blockchain Markets under Discrete Clearing and Paid Priority. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5290232">link</a>
+    The Viability of Blockchain Markets under Discrete Clearing and Paid Priority (with Agostino Capponi, Álvaro Cartea).<br>
+    <span class="home-paper-venue">(2025).</span> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5290232">link</a>
     <div class="home-selected-conf">
       <span class="home-conf-label">Presented at / Accepted at:</span>
       <ul>
         <li><a href="https://www.nber.org/conferences/si-2026-financial-market-structure">NBER Summer Institute 2026, Financial Market Structure</a>, Cambridge, MA</li>
         <li>6th Annual CBER Conference, New York, 2026</li>
-        <li>41st Meeting of the European Economic Association and the 77th European Meeting of the Econometric Society (EEA-ESEM 2026)</li>
         <li>The Microstructure Exchange seminar series</li>
+        <li>41st Meeting of the European Economic Association and the 77th European Meeting of the Econometric Society (EEA-ESEM 2026)</li>
       </ul>
     </div>
   </li>
   <li>
-    Fayçal Drissi, Zachary Feinstein, Basil Williams (2026). Liquid Staking and the Limits of Policy. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6173222">link</a>
+    Liquid Staking and the Limits of Policy (with Zachary Feinstein, Basil Williams).<br>
+    <span class="home-paper-venue">(2026).</span> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6173222">link</a>
     <div class="home-selected-conf">
       <span class="home-conf-label">Presented at / Accepted at:</span>
       <ul>
@@ -269,7 +271,8 @@ A complete list is available on the <a href="{{ base_path }}/selected-publicatio
     </div>
   </li>
   <li>
-    Álvaro Cartea, Fayçal Drissi, Fahad Saleh (2026). The Economics of Regulating Tokenized Securities. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6942338">link</a>
+    The Economics of Regulating Tokenized Securities (with Álvaro Cartea, Fahad Saleh).<br>
+    <span class="home-paper-venue">(2026).</span> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6942338">link</a>
     <div class="home-selected-conf">
       <span class="home-conf-label">Presented at / Accepted at:</span>
       <ul>
@@ -284,12 +287,12 @@ A complete list is available on the <a href="{{ base_path }}/selected-publicatio
 
 <ol class="home-selected">
   <li>
-    Álvaro Cartea, Fayçal Drissi, Marcello Monga (2025). Decentralised finance and automated market making: Execution and speculation.<br>
-    <span class="home-paper-venue">Journal of Economic Dynamics and Control</span>. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4144743">link</a>
+    Decentralised finance and automated market making: Execution and speculation (with Álvaro Cartea, Marcello Monga).<br>
+    <span class="home-paper-venue">Journal of Economic Dynamics and Control (2025).</span> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4144743">link</a>
   </li>
   <li>
-    Álvaro Cartea, Fayçal Drissi, Leandro Sánchez-Betancourt, David Siska, Lukasz Szpruch (2026). Strategic bonding curves in automated market makers.<br>
-    <span class="home-paper-venue">Mathematics of Operations Research</span>. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4459177">link</a>
+    Strategic bonding curves in automated market makers (with Álvaro Cartea, Leandro Sánchez-Betancourt, David Siska, Lukasz Szpruch).<br>
+    <span class="home-paper-venue">Mathematics of Operations Research (2026).</span> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4459177">link</a>
   </li>
 </ol>
 
