@@ -274,16 +274,6 @@ A complete list is available on the <a href="{{ base_path }}/selected-publicatio
       </ul>
     </div>
   </li>
-  <li>
-    The Economics of Regulating Tokenized Securities (with Álvaro Cartea, Fahad Saleh).<br>
-    <span class="home-paper-venue">(2026).</span> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6942338">link</a>
-    <div class="home-selected-conf">
-      <span class="home-conf-label">Presented at / Accepted at:</span>
-      <ul>
-        <li>ToDeFi - Torino Decentralized Finance Conference 2026 (Keynote speech)</li>
-      </ul>
-    </div>
-  </li>
 </ol>
 
 
