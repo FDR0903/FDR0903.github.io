@@ -243,6 +243,10 @@ A complete list is available on the <a href="{{ base_path }}/selected-publicatio
 
 <ol class="home-selected">
   <li>
+    Traders on GPT: AI and Cognitive Capital in Financial Markets (with Andrea Barbon).<br>
+    <span class="home-paper-venue">(2026).</span> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7661969">link</a>
+  </li>
+  <li>
     Equilibrium Liquidity and Risk Offsetting in Decentralised Markets (with Sebastian Jaimungal, Xuchen Wu).<br>
     <span class="home-rr-label">Revise and Resubmit at</span> <span class="home-paper-venue">Operations Research (2025).</span> <a href="https://fdr0903.github.io/files/CEX_DEX.pdf">link</a>
   </li>
