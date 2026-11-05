@@ -104,7 +104,7 @@ author_profile: false
 }
 .pub-conf-list {
   font-style: italic;
-  font-weight: 600;
+  font-weight: normal;
   color: #1a1a1a;
 }
 .pub-intro {
