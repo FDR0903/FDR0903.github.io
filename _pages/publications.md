@@ -96,6 +96,7 @@ author_profile: false
   margin-top: 0.35em;
   font-size: 0.85em;
   color: #444;
+  text-align: left;
 }
 .pub-presented .pub-label {
   font-style: italic;
@@ -103,25 +104,9 @@ author_profile: false
   letter-spacing: 0.01em;
 }
 .pub-conf-list {
-  list-style: none;
-  padding-left: 0.4em;
-  margin: 0.15em 0 0 0;
-}
-.pub-conf-list li {
   font-style: italic;
   font-weight: 600;
   color: #1a1a1a;
-  padding-left: 1em;
-  position: relative;
-  margin-bottom: 0.1em;
-}
-.pub-conf-list li::before {
-  content: "—";
-  position: absolute;
-  left: 0;
-  color: #888;
-  font-style: normal;
-  font-weight: normal;
 }
 
 .pub-tabs {

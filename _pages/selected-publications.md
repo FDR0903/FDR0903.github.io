@@ -91,6 +91,22 @@ author_profile: false
   font-weight: 500;
   letter-spacing: 0.01em;
 }
+.pub-presented {
+  margin-top: 0.35em;
+  font-size: 0.85em;
+  color: #444;
+  text-align: left;
+}
+.pub-presented .pub-label {
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+.pub-conf-list {
+  font-style: italic;
+  font-weight: 600;
+  color: #1a1a1a;
+}
 .pub-intro {
   font-family: var(--pub-serif);
   font-size: 0.95em;
