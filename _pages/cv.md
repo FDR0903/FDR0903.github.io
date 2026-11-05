@@ -9,8 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+<p><a href="{{ site.baseurl }}/files/CV.pdf?v={{ site.time | date: '%s' }}">Download the latest CV (PDF)</a></p>
+
 <embed
-    src="https://fdr0903.github.io/files/CV.pdf"
+    src="{{ site.baseurl }}/files/CV.pdf?v={{ site.time | date: '%s' }}"
     type="application/pdf"
     frameBorder="0"
     scrolling="auto"

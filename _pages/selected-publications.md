@@ -112,19 +112,28 @@ For a detailed breakdown of my work by field (finance and economics, OR and FE, 
 {% assign sel_conf = site.conferences | where_exp: "item", "item.selected" %}
 {% assign selected_all = sel_pubs | concat: sel_finance | concat: sel_conf | sort: "date" | reverse %}
 {% assign working_all = site.workingpapers | concat: site.workingpapersfinance | sort: "date" | reverse %}
-{% assign randr_all = site.randr | sort: "date" | reverse %}
+{% assign working_randr = working_all | where: "status", "randr" %}
+{% assign randr_all = site.randr | concat: working_randr | sort: "date" | reverse | sort: "randr_order" %}
+{% assign submitted_all = working_all | where: "status", "submitted" %}
+
+{% if submitted_all.size > 0 %}
+<div class="pub-section">
+  <div class="pub-section-heading"><h2>Submitted Papers</h2></div>
+
+  <ul class="pub-list">
+  {% for post in submitted_all %}
+    <li>{% include archive-single-paper.html style="stacked" %}</li>
+  {% endfor %}
+  </ul>
+</div>
+{% endif %}
 
 <div class="pub-section">
   <div class="pub-section-heading"><h2>Revise and Resubmit</h2></div>
 
   <ul class="pub-list">
   {% for post in randr_all %}
-    <li>
-      <div class="pub-item">
-        <span class="pub-title">{{ post.short_title }}{% if post.coauthors and post.coauthors != '' %} (with {{ post.coauthors }}){% endif %}.</span><br>
-        <span class="pub-rr-label">Revise and Resubmit at</span> <span class="pub-venue">{{ post.venue | remove: "." }} ({{ post.date | date: "%Y" }}).</span>{% if post.paperurl and post.paperurl != '' %} <a class="pub-link" href="{{ post.paperurl }}">link</a>{% endif %}{% if post.code and post.code != '' %} <a class="pub-link" href="{{ post.code }}">code</a>{% endif %}
-      </div>
-    </li>
+    <li>{% include archive-single-paper.html style="stacked" status="randr" %}</li>
   {% endfor %}
   </ul>
 </div>
@@ -151,12 +160,14 @@ For a detailed breakdown of my work by field (finance and economics, OR and FE, 
 
   <ul class="pub-list">
   {% for post in working_all %}
+    {% unless post.status == 'submitted' or post.status == 'randr' %}
     <li>
       <div class="pub-item">
         <span class="pub-title">{{ post.short_title }}{% if post.coauthors and post.coauthors != '' %} (with {{ post.coauthors }}){% endif %}.</span><br>
         <span class="pub-venue">({{ post.date | date: "%Y" }}).</span>{% if post.paperurl and post.paperurl != '' %} <a class="pub-link" href="{{ post.paperurl }}">link</a>{% endif %}{% if post.code and post.code != '' %} <a class="pub-link" href="{{ post.code }}">code</a>{% endif %}
       </div>
     </li>
+    {% endunless %}
   {% endfor %}
   </ul>
 </div>

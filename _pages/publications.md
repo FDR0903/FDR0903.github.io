@@ -166,6 +166,26 @@ author_profile: false
 
 <div class="pub-tab-panel is-active" id="tab-finance">
   <div class="pub-section">
+    {% assign finance_randr = site.workingpapersfinance | where: "status", "randr" %}
+    {% if finance_randr.size > 0 %}
+    <div class="pub-subheading">Revise and Resubmit</div>
+    <ul class="pub-list">
+    {% for post in finance_randr %}
+      <li>{% include archive-single-paper.html style="stacked" %}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% assign finance_submitted = site.workingpapersfinance | where: "status", "submitted" %}
+    {% if finance_submitted.size > 0 %}
+    <div class="pub-subheading">Submitted Papers</div>
+    <ul class="pub-list">
+    {% for post in finance_submitted %}
+      <li>{% include archive-single-paper.html style="stacked" %}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
     <div class="pub-subheading">Publications</div>
     <ul class="pub-list">
     {% for post in site.publicationsfinance reversed %}
@@ -176,7 +196,9 @@ author_profile: false
     <div class="pub-subheading">Working papers</div>
     <ul class="pub-list">
     {% for post in site.workingpapersfinance %}
+      {% unless post.status == 'submitted' or post.status == 'randr' %}
       <li>{% include archive-single-paper.html style="stacked" %}</li>
+      {% endunless %}
     {% endfor %}
     </ul>
   </div>

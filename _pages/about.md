@@ -247,12 +247,8 @@ A complete list is available on the <a href="{{ base_path }}/selected-publicatio
     <span class="home-paper-venue">(2026).</span> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7661969">link</a>
   </li>
   <li>
-    Equilibrium Liquidity and Risk Offsetting in Decentralised Markets (with Sebastian Jaimungal, Xuchen Wu).<br>
-    <span class="home-rr-label">Revise and Resubmit at</span> <span class="home-paper-venue">Operations Research (2025).</span> <a href="https://fdr0903.github.io/files/CEX_DEX.pdf">link</a>
-  </li>
-  <li>
     The Viability of Blockchain Markets under Discrete Clearing and Paid Priority (with Agostino Capponi, Álvaro Cartea).<br>
-    <span class="home-paper-venue">(2025).</span> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5290232">link</a>
+    <span class="home-rr-label">Revise and Resubmit at</span> <span class="home-paper-venue">The Review of Financial Studies.</span> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5290232">link</a>
     <div class="home-selected-conf">
       <span class="home-conf-label">Presented at / Accepted at:</span>
       <ul>
@@ -262,6 +258,10 @@ A complete list is available on the <a href="{{ base_path }}/selected-publicatio
         <li>41st Meeting of the European Economic Association and the 77th European Meeting of the Econometric Society (EEA-ESEM 2026)</li>
       </ul>
     </div>
+  </li>
+  <li>
+    Equilibrium Liquidity and Risk Offsetting in Decentralised Markets (with Sebastian Jaimungal, Xuchen Wu).<br>
+    <span class="home-rr-label">Revise and Resubmit at</span> <span class="home-paper-venue">Operations Research (2025).</span> <a href="https://fdr0903.github.io/files/CEX_DEX.pdf">link</a>
   </li>
   <li>
     Liquid Staking and the Limits of Policy (with Zachary Feinstein, Basil Williams).<br>

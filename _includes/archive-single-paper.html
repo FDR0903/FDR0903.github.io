@@ -11,7 +11,9 @@
 <div class="pub-item">
 {% if include.style == 'stacked' %}{% assign display_title = post.short_title | default: title %}
 <span class="pub-title">{{ display_title }}{% if post.coauthors and post.coauthors != '' %} (with {{ post.coauthors }}){% endif %}.</span><br>
-<span class="pub-venue">{% if post.venue and post.venue != '' %}{{ post.venue | remove: "." }} {% endif %}({{ post.date | date: "%Y" }}).</span>{{ pub_links }}
+{% if post.status == 'submitted' %}<span class="pub-rr-label">Submitted to</span> <span class="pub-venue">{{ post.submitted_to }}.</span>{{ pub_links }}
+{% elsif post.status == 'randr' or include.status == 'randr' %}<span class="pub-rr-label">Revise and Resubmit at</span> <span class="pub-venue">{{ post.venue | remove: "." }} ({{ post.date | date: "%Y" }}).</span>{{ pub_links }}
+{% else %}<span class="pub-venue">{% if post.venue and post.venue != '' %}{{ post.venue | remove: "." }} {% endif %}({{ post.date | date: "%Y" }}).</span>{{ pub_links }}{% endif %}
 {% else %}
 <span class="pub-title">{{ title }}</span>{% if post.venue and post.venue != '' %} <em class="pub-venue">{{ post.venue }}</em>{% endif %}{{ pub_links }}
 {% endif %}
