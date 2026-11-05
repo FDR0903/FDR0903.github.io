@@ -228,16 +228,16 @@ A complete list is available on the <a href="{{ base_path }}/selected-publicatio
 
 <ol class="home-selected">
   <li>
-    Traders on GPT: AI and Cognitive Capital in Financial Markets (with Andrea Barbon).<br>
-    <span class="home-paper-venue">(2026).</span> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7661969">link</a>
-  </li>
-  <li>
     The Viability of Blockchain Markets under Discrete Clearing and Paid Priority (with Agostino Capponi, Álvaro Cartea).<br>
-    <span class="home-rr-label">Revise and Resubmit at</span> <span class="home-paper-venue">The Review of Financial Studies.</span> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5290232">link</a>
+    <span class="home-rr-label">Revise and Resubmit at</span> <span class="home-paper-venue">The Review of Financial Studies (2025).</span> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5290232">link</a>
     <div class="home-selected-conf">
       <span class="home-conf-label">Presented at:</span>
       <span class="home-conf-list"><a href="https://www.nber.org/conferences/si-2026-financial-market-structure">NBER Summer Institute 2026, Financial Market Structure</a>, Cambridge, MA, 6th Annual CBER Conference, New York, 2026, The Microstructure Exchange seminar series, 41st Meeting of the European Economic Association and the 77th European Meeting of the Econometric Society (EEA-ESEM 2026)</span>
     </div>
+  </li>
+  <li>
+    Traders on GPT: AI and Cognitive Capital in Financial Markets (with Andrea Barbon).<br>
+    <span class="home-paper-venue">(2026).</span> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7661969">link</a>
   </li>
   <li>
     Equilibrium Liquidity and Risk Offsetting in Decentralised Markets (with Sebastian Jaimungal, Xuchen Wu).<br>
