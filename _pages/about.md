@@ -91,7 +91,7 @@ redirect_from:
 }
 .home-conf-list {
   font-style: italic;
-  font-weight: 600;
+  font-weight: normal;
   color: #1a1a1a;
 }
 .home-selected-conf a::before,
