@@ -14,6 +14,6 @@ presented:
   - '<a href="https://meetings.informs.org/wordpress/annual/">2026 INFORMS Annual Meeting | San Francisco</a>'
   - "3rd Crafting the Cryptoeconomy (CtCe) Conference at Columbia University"
   - "2026 INFORMS Conference on Financial Engineering and Fintech at Stevens Institute of Technology"
-  - "FMA Applied Finance keynote"
-  - "UCSB Finance seminar"
+  - "FMA Applied Finance (Keynote speech)"
+  - "UCSB Economics seminar"
 ---
