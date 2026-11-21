@@ -1,5 +1,5 @@
 ---
-title: "Álvaro Cartea, Fayçal Drissi, Marcello Monga Execution and statistical arbitrage with signals in multiple automated market makers."
+title: "Álvaro Cartea, Fayçal Drissi, Marcello Monga (2023). Execution and statistical arbitrage with signals in multiple automated market makers."
 short_title: "Execution and statistical arbitrage with signals in multiple automated market makers"
 coauthors: "Álvaro Cartea, Marcello Monga"
 collection: conferences

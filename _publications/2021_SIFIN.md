@@ -1,5 +1,5 @@
 ---
-title: "Philippe Bergault, Fayçal Drissi, Guéant O. (2022). Multi-asset Optimal Execution and Statistical Arbitrage Strategies under Ornstein-Uhlenbeck Dynamics."
+title: "Philippe Bergault, Fayçal Drissi, Olivier Guéant (2022). Multi-asset Optimal Execution and Statistical Arbitrage Strategies under Ornstein-Uhlenbeck Dynamics."
 short_title: "Multi-asset Optimal Execution and Statistical Arbitrage Strategies under Ornstein-Uhlenbeck Dynamics"
 coauthors: "Philippe Bergault, Olivier Guéant"
 collection: publications

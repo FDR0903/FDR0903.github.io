@@ -1,5 +1,5 @@
 ---
-title: "Harrison Waldon, Fayçal Drissi, Yannick Limmer, Uljad Berdica, Jakob Foerster, Álvaro Cartea DARE: The Deep Adaptive Regulator for Control of Uncertain Continuous-Time Systems."
+title: "Harrison Waldon, Fayçal Drissi, Yannick Limmer, Uljad Berdica, Jakob Foerster, Álvaro Cartea (2024). DARE: The Deep Adaptive Regulator for Control of Uncertain Continuous-Time Systems."
 short_title: "DARE: The Deep Adaptive Regulator for Control of Uncertain Continuous-Time Systems"
 coauthors: "Harrison Waldon, Yannick Limmer, Uljad Berdica, Jakob Foerster, Álvaro Cartea"
 collection: conferences
@@ -8,5 +8,5 @@ excerpt: #'This paper is about the number 3. The number 4 is left for future wor
 date: 2024-07-01
 venue: 'ICML 2024 Workshop: Foundations of Reinforcement Learning and Control--Connections and Perspectives'
 paperurl: 'https://openreview.net/pdf?id=vTtldsicU9'
-citation: 'Harrison Waldon, Fayçal Drissi, Yannick Limmer, Uljad Berdica, Jakob Foerster, Álvaro Cartea DARE: The Deep Adaptive Regulator for Control of Uncertain Continuous-Time Systems. In ICML 2024 Workshop: Foundations of Reinforcement Learning and Control--Connections and Perspectives.'
+citation: 'Harrison Waldon, Fayçal Drissi, Yannick Limmer, Uljad Berdica, Jakob Foerster, Álvaro Cartea (2024). DARE: The Deep Adaptive Regulator for Control of Uncertain Continuous-Time Systems. In ICML 2024 Workshop: Foundations of Reinforcement Learning and Control--Connections and Perspectives.'
 ---
